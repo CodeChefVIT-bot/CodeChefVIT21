@@ -1,0 +1,37 @@
+#aboutUs{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+}
+.aboutUsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUsTitle{
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-decoration: underline #1579D6 4.5px;
+    text-underline-offset: 0.6em;
+}
+.aboutUsDiv2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.aboutUsPara{
+    color: #fff;
+    opacity: 80%;
+    font-size: 24px;
+    line-height: 160%;
+}
