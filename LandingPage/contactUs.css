@@ -8,8 +8,88 @@
     font-size: 48px;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    margin-top: 5%;
+    margin-top: 13%;
     margin-bottom: 5%;
+    margin-left: auto; margin-right: auto;
     text-decoration: underline #1579D6 4.5px;
     text-underline-offset: 0.6em;
+}
+.contactUsDiv2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.contactBox{
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 32px;
+    box-shadow: 0px 0px 8px rgba(10,122,224,0.8);
+    height: 70vh;
+    width: 80%;
+}
+.contactBox form{
+    width: 100%;   
+}
+.contactFormDiv{
+    width: 100%;
+    margin:auto;
+}
+.contact-form{
+    margin: 2% 0;
+    width: 100%;
+}
+.contactBox input,.contactBox textarea{
+    width: 50%;
+    padding:0.5rem;
+    border: 3px solid rgba(10,122,224,0.8);
+    border-width: 0px 0px 2px 0px;
+    background-color:  rgba(255, 255, 255, 0.12);
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+}
+.contactBox label{
+    display: block;
+    text-align: left;
+    color: #fff;
+    margin-left: 25%;
+    padding: 10px 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.contactBox input[type="email"]
+{
+    font-size:16px;
+}
+.contactBox textarea
+{
+    font-size:16px;
+}
+.sendBtn{
+    margin: 30px auto;
+    text-decoration: none;
+    padding: 0.8rem 4rem;
+    background: #3E62DF;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.sendBtn:hover{
+    background-color: #0649ad;
+    font-size: 18px;
 }
