@@ -67,6 +67,7 @@
     margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
+    transition: all 0.7s ease-in-out;
 }
 .cardFR:hover {
     background-color: #1579D6;
@@ -96,10 +97,12 @@
     margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
+    transition: all 0.7s ease-in-out;
 }
 .cardFRCompetitive:hover {
     background-color: #1579D6;
     box-shadow: none;
+    transition: all 0.7s ease-in-out;
 }
 .cardFRCompetitive:hover img,
 .cardFRCompetitive:hover p {
@@ -130,6 +133,7 @@
     align-items: center;
     margin-right: 0%;
     box-shadow: 0px 0px 8px rgba(19, 129, 230, 0.8);
+    transition: all 0.7s ease-in-out;
 }
 .departmentCardimageCompetitive {
     margin-bottom: 40px;
@@ -141,6 +145,7 @@
     font-weight: 500;
     /* padding-top: 40px; */
     text-align: center;
+    transition: all 0.7s ease-in-out;
 }
 
 /* Second Row */
