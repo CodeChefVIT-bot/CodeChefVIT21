@@ -1,0 +1,207 @@
+#projects {
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    /* background-color: black; */
+}
+
+.projectContainer {
+    text-align: center;
+}
+
+.projectTitleDiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectTitleDiv h1 {
+    color: #fff;
+    font-size: 52px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline #1579D6 4.5px;
+    text-underline-offset: 0.6em;
+}
+
+
+/*Project Tabs*/
+
+.projectTabs {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectTabs ul {
+    list-style: none;
+    margin-top: 5px;
+    padding: 0;
+    display: flex;
+}
+
+.projectTabs ul li {
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.projectTabs ul li:hover {
+    text-decoration: underline #1579D6 3px;
+    text-underline-offset: 0.45em;
+}
+
+.projectTabs ul li:active {
+    text-decoration: underline #1579D6 3px;
+    text-underline-offset: 0.5em;
+}
+
+
+/*Project Showcase*/
+
+.projectShowcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.showcaseWrapper {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.showcaseCard {
+    width: 320px;
+    height: 380px;
+    padding: 2rem 1rem;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+}
+
+.showcaseCard:hover {
+    transform: translateY(20px);
+}
+
+.showcaseCard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(155, 207, 255, 0.64) 0%, rgba(4, 80, 149, 0.64) 100%);
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.showcaseCard:hover::before {
+    opacity: 1;
+}
+
+.showcaseCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+}
+
+.showcaseCard .info {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+
+.showcaseCard:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.showcaseCard .info h1 {
+    margin: 0;
+    text-align: left;
+    font-size: 28px;
+}
+
+.showcaseCard .info h3 {
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+}
+
+.showcaseCard .info p {
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.showcaseCard .info .btn {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: white;
+    color: rgba(21, 121, 214, 1);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.showcaseCard .info .btn:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/*View All Button*/
+
+.viewAllBtn {
+    margin: 30px auto;
+    text-decoration: none;
+    padding: 0.8rem 2.5rem;
+    background: #1579D6;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.viewAllBtn:hover {
+    background-color: #0649ad;
+    font-size: 18px;
+}
+
+.viewAllBtn a {
+    text-decoration: none;
+    color: #fff;
+}

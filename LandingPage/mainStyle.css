@@ -36,8 +36,8 @@ p.Sub-title {
     display: inline-block;
     font-size: 24px;
     margin: 0;
-    padding-bottom: 16px;
-    font-weight: 400;
+    padding-bottom: 32px;
+    font-weight: 600;
 }
 
 p.Hero-title1 {
@@ -62,9 +62,32 @@ span {
     color: #1579D6;
 }
 
-.heroArrowDiv {
+
+/*Floating Socials*/
+
+.socialsFloat {
+    position: absolute;
+    top: 365px;
+}
+
+.socialsFloat a {
+    width: 36px;
+    height: 36px;
+    background: #1579D6;
+    border-radius: 50%;
+    /* border: 1px solid #1579D6; */
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 190px;
+    align-items: center;
+    margin-bottom: 14px;
+    transition: all 0.2s ease-in;
+}
+
+.socialsFloat a:hover {
+    width: 46px;
+    height: 46px;
+}
+
+.bigsocial {
+    width: 23px;
 }

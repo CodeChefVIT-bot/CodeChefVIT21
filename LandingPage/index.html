@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./Navbar.css">
     <link rel="stylesheet" href="./aboutUs.css">
     <link rel="stylesheet" href="./departments.css">
+    <link rel="stylesheet" href="./contactUs.css">
+    <link rel="stylesheet" href="./projects.css">
+    <link rel="stylesheet" href="./footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 
@@ -35,10 +38,21 @@
                 <p class="Hero-title1">At Codechef-VIT we believe</p>
                 <p class="Hero-title2">in<span id="heroChangingTitle">learning.</span></p>
             </div>
-
+            <div class="socialsFloat">
+                <a href="https://www.instagram.com/codechefvit/" target="_blank">
+                    <img class="bigsocial" src="../Images/Socials/Instagram - Negative.svg" alt="">
+                </a>
+                <a href="https://twitter.com/codechefvit?lang=en" target="_blank">
+                    <img src="../Images/Socials/Twitter - Negative.svg" alt="">
+                </a>
+                <a href="https://www.youtube.com/c/CodeChefVIT" target="_blank">
+                    <img class="bigsocial" src="../Images/Socials/YouTube - Negative.svg" alt="">
+                </a>
+            </div>
+            <!-- 
             <div class="heroArrowDiv">
                 <img id="heroArrow" src="../Images/Group 22.svg" alt="heroArrow">
-            </div>
+            </div> -->
 
         </nav>
     </section>
@@ -62,20 +76,20 @@
         <!-- First row -->
         <div id="departmentsCardsFirstRow">
             <div class="cardFR">
-                <img class="departmentCardimage" src="../Images/technical.svg" alt="technical svg">
+                <img class="departmentCardimage" src="../Images/Departments/technical.svg" alt="technical svg">
                 <p class="cardTitle">Technical</p>
                 <h2>Technical</h2>
                 <span>Here at CodeChef-VIT we love to make stuff that makes life easier and take great pride in our tech team that converts these mere ideas into working and usable implementations.</span>
             </div>
 
             <div class="cardFR">
-                <img class="departmentCardimage" src="../Images/management.svg" alt="management svg">
+                <img class="departmentCardimage" src="../Images/Departments/management.svg" alt="management svg">
                 <p class="cardTitle">Management</p>
                 <h2>Management</h2>
                 <span>The cornerstone of CodeChef-VIT's most successful events and workshops, our management domain makes sure each of our events outperforms the previous one.</span>
             </div>
             <div class="cardFRCompetitive">
-                <img class="departmentCardimageCompetitive" src="../Images/competitive.svg" alt="competitive svg">
+                <img class="departmentCardimageCompetitive" src="../Images/Departments/competitive.svg" alt="competitive svg">
                 <p class="cardTitleCompetitve">Competitve coding</p>
                 <h2>Competitve Coding</h2>
                 <span>Our Cc domain boasts of great problem solving and analytical skills and always makes sure it keeps raising the bar consistently to outperform themselves.</span>
@@ -86,13 +100,13 @@
 
         <div id="departmentsCardsSecondRow">
             <div class="cardFR">
-                <img class="departmentCardimage" src="../Images/design.svg" alt="technical svg">
+                <img class="departmentCardimage" src="../Images/Departments/design.svg" alt="designsvg">
                 <p class="cardTitle">Design</p>
                 <h2>Design</h2>
                 <span>From designing interactive web illustrations to graphic UI elements, our design team never fails to deliver when it comes to etching out to their imagination on a digital canvas.</span>
             </div>
             <div class="cardFRCompetitive">
-                <img class="departmentCardimage" src="../Images/editorial.svg " alt="management svg">
+                <img class="departmentCardimage" src="../Images/Departments/editorial.svg " alt="editorial svg">
                 <p class="cardTitle">Editorial</p>
                 <h2>Editorial</h2>
                 <span>From blogging to project documentation, from technical and web content writing to event descriptions, our editorial team does it all to perfection.</span>
@@ -100,6 +114,186 @@
 
         </div>
 
+    </section>
+    <section id="projects">
+        <div class="projectContainer">
+            <div class="projectTitleDiv">
+                <h1>Our Projects</h1>
+            </div>
+            <div class="projectTabs">
+                <ul>
+                    <li class="tab" id="all">All</li>
+                    <li class="tab" id="web">Web</li>
+                    <li class="tab" id="app">Apps</li>
+                </ul>
+            </div>
+            <div class="projectShowcase">
+                <div class="showcaseWrapper">
+                    <div class="showcaseCard">
+                        <img src="../Images/devsoc21-P1.png" alt="">
+                        <div class="info">
+                            <h1>DevSoc'21</h1>
+                            <p>The official website for DEVSOC 2021 by CodeChef-VIT.</p>
+                            <h3>WEB</h3>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="showcaseCard">
+                        <img src="../Images/devsoc_admin-P2.png" alt="">
+                        <div class="info">
+                            <h1>HackScore Admin</h1>
+                            <p>This app was made to make the evaluation of participants in CodeChef-VIT's flagship event, DEVSOC 2020.</p>
+                            <h3>APP</h3>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="showcaseCard">
+                        <img src="https://source.unsplash.com/weekly?forest" alt="">
+                        <div class="info">
+                            <h1>CodeChef-VIT</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum ducimus dolores ex voluptate qui!</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showcaseWrapper">
+                    <div class="showcaseCard">
+                        <img src="https://source.unsplash.com/weekly?nature" alt="">
+                        <div class="info">
+                            <h1>CodeChef-VIT</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum ducimus dolores ex voluptate qui!</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="showcaseCard">
+                        <img src="https://source.unsplash.com/weekly?fire" alt="">
+                        <div class="info">
+                            <h1>CodeChef-VIT</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum ducimus dolores ex voluptate qui!</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="showcaseCard">
+                        <img src="https://source.unsplash.com/weekly?forest" alt="">
+                        <div class="info">
+                            <h1>CodeChef-VIT</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum ducimus dolores ex voluptate qui!</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showcaseWrapper">
+                    <div class="showcaseCard">
+                        <img src="https://source.unsplash.com/weekly?nature" alt="">
+                        <div class="info">
+                            <h1>CodeChef-VIT</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum ducimus dolores ex voluptate qui!</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="showcaseCard">
+                        <img src="https://source.unsplash.com/weekly?fire" alt="">
+                        <div class="info">
+                            <h1>CodeChef-VIT</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum ducimus dolores ex voluptate qui!</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="showcaseCard">
+                        <img src="https://source.unsplash.com/weekly?forest" alt="">
+                        <div class="info">
+                            <h1>CodeChef-VIT</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum ducimus dolores ex voluptate qui!</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="viewAllBtn"><a href="#" class="btn">View All &rarr;</a></button>
+
+        </div>
+    </section>
+
+    <section id="contactUs">
+        <div class="aboutUsDiv">
+            <h2 class="contactUsTitle">Contact Us</h2>
+        </div>
+        <div class="contactUsDiv2">
+            <div class="contactBox">
+                <form action="#">
+                    <div class="contactFormDiv">
+                        <div class="contact-form">
+                            <label for="E-mail">Your Email: </label>
+                            <input type="email" name="E-mail" id="E-mail" placeholder="Enter your Email">
+                        </div>
+
+                        <div class="contact-form">
+                            <label for="msg">Your Message: </label>
+                            <textarea name="msg" id="msg" cols="30" rows="9" placeholder="Enter your Message"></textarea>
+                        </div>
+                    </div>
+
+                    <button class="sendBtn">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footerDiv">
+            <img src="../Images/codechef_logo_1.svg" alt="Codechef logo footer">
+            <div class="footerContentDiv">
+                <div class="footerContentTextDiv">
+                    <p class="footerContentText">CodeChef-VIT is a non-commercial organization with a goal to provide a platform for programmers and developers everywhere to meet, compete & have fun. At CodeChef-VIT, we believe in the words of Matt Mullenweg - “Technology is best
+                        when it brings people together”. </p>
+                </div>
+
+                <div class="footerLinksContainerDiv">
+                    <div class="footerLinksDiv">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Projects</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerLinksDiv">
+                        <ul>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Webinars</a></li>
+                            <li><a href="#">Sponsors</a></li>
+                            <li><a href="#">App</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footerLineBreak"></div>
+            <div class="footerBottom">
+                <div class="footerBottomCopyrightDiv">
+                    <img src="../Images/Socials/copyright.svg" alt="copyright svg">
+                    <span>Copyright 2020 | CodeChef-VIT | All rights reserved.</span>
+                </div>
+                <div class="footerSocials">
+                    <img src="../Images/Socials/Facebook - Negative.svg" alt="">
+                    <img src="../Images/Socials/Twitter - Negative.svg" alt="">
+                    <img src="../Images/Socials/LinkedIn - Negative.svg" alt="">
+                    <img src="../Images/Socials/YouTube - Negative.svg" alt="">
+                    <img src="../Images/Socials/Instagram - Negative.svg" alt="">
+                    <img src="../Images/Socials/Medium - Negative.svg" alt="">
+                    <img src="../Images/Socials/github.png" alt="">
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 
