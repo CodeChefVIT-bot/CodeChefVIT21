@@ -1,0 +1,155 @@
+#departments {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 13%;
+}
+.departmentsDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 64px;
+}
+.departmentsTitle {
+    color: white;
+    margin: auto;
+    font-size: 48px;
+    font-weight: 900;
+    position: relative;
+}
+.departmentsTitle:after {
+    content: '';
+    height: 4px;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #1579D6;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 25%);
+    top: 82px;
+}
+
+/* First row */
+
+#departmentsCardsFirstRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 6%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.cardFR {
+    width: 280px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5.5%;
+    box-shadow: 0px 0px 8px rgba(19, 129, 230, 0.8);
+    transition: all 0.7s ease-in-out;
+}
+
+/* for hover card state */
+
+.cardFR h2 {
+    display: none;
+    color: white;
+    margin-top: 32px;
+}
+.cardFR span {
+    display: none;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.cardFR:hover {
+    background-color: #1579D6;
+    box-shadow: none;
+}
+.cardFR:hover img,
+.cardFR:hover p {
+    display: none;
+}
+.cardFR:hover h2,
+.cardFR:hover span {
+    display: block;
+}
+
+/* for different cards */
+
+.cardFRCompetitive h2 {
+    display: none;
+    color: white;
+    margin-top: 32px;
+}
+.cardFRCompetitive span {
+    display: none;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.cardFRCompetitive:hover {
+    background-color: #1579D6;
+    box-shadow: none;
+}
+.cardFRCompetitive:hover img,
+.cardFRCompetitive:hover p {
+    display: none;
+}
+.cardFRCompetitive:hover h2,
+.cardFRCompetitive:hover span {
+    display: block;
+}
+.cardTitle {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 40px;
+    text-align: center;
+}
+
+/* For competitive card */
+
+.cardFRCompetitive {
+    width: 280px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0%;
+    box-shadow: 0px 0px 8px rgba(19, 129, 230, 0.8);
+}
+.departmentCardimageCompetitive {
+    margin-bottom: 40px;
+    margin-top: 17%;
+}
+.cardTitleCompetitve {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    /* padding-top: 40px; */
+    text-align: center;
+}
+
+/* Second Row */
+
+#departmentsCardsSecondRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 3%;
+}

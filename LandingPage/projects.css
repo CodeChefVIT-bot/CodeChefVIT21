@@ -96,7 +96,7 @@
     border-radius: 10px;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(170, 217, 255,0.5),#1579D6);
+    background: linear-gradient(180deg, rgba(155, 207, 255, 0.64) 0%, rgba(4, 80, 149, 0.64) 100%);
     z-index: 2;
     transition: 0.5s all;
     opacity: 0;
@@ -130,6 +130,11 @@
     text-align: left;
     font-size: 28px;
 }
+.showcaseCard .info h3{
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+}
 .showcaseCard .info p{
     letter-spacing: 1px;
     text-align: left;
@@ -140,11 +145,11 @@
 .showcaseCard .info .btn{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    background: #116abd;
-    color: rgb(233, 230, 230);
+    background: white;
+    color: rgba(21, 121, 214, 1);
     border-radius: 8px;
     font-size: 16px;
-    font-weight: medium;
+    font-weight: 500;
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }

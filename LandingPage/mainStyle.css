@@ -53,3 +53,29 @@ span {
     margin-left: 16px;
     color: #1579D6;
 }
+
+/*Floating Socials*/
+
+.socialsFloat{
+    position: absolute;
+    top: 365px;
+}
+.socialsFloat a{
+    width: 36px;
+    height: 36px;
+    background: #1579D6;
+    border-radius: 50%;
+    /* border: 1px solid #1579D6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+    transition: all 0.2s ease-in;
+}
+.socialsFloat a:hover{
+    width: 46px;
+    height: 46px;
+}
+.bigsocial{
+    width: 23px;
+}
