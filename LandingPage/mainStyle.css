@@ -1,39 +1,45 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: #111;
     font-family: 'inter', sans-serif;
 }
 
+
 /* Home Section */
 
-#home{
+#home {
     background-image: url(../Images/Heroimage.png);
     overflow: hidden;
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
+
 div.hero {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
     margin-top: 264px;
 }
+
 p.Sub-title {
     color: rgba(255, 255, 255, 0.603);
     display: inline-block;
     font-size: 24px;
     margin: 0;
-    padding-bottom: 32px;
-    font-weight: 600;
+    padding-bottom: 16px;
+    font-weight: 400;
 }
+
 p.Hero-title1 {
     color: white;
     font-size: 72px;
@@ -42,6 +48,7 @@ p.Hero-title1 {
     font-weight: 800;
     padding-top: 8px;
 }
+
 p.Hero-title2 {
     color: white;
     font-size: 72px;
@@ -49,7 +56,15 @@ p.Hero-title2 {
     display: inline;
     font-weight: 800;
 }
+
 span {
     margin-left: 16px;
     color: #1579D6;
+}
+
+.heroArrowDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 190px;
 }
