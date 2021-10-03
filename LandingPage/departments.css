@@ -44,6 +44,7 @@
     border-radius: 16px;
     background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
     display: flex;
+    cursor: pointer;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -128,6 +129,7 @@
     border-radius: 16px;
     background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
     display: flex;
+    cursor: pointer;
     flex-direction: column;
     justify-content: center;
     align-items: center;
