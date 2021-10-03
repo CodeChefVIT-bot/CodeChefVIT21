@@ -1,0 +1,104 @@
+section.footer {
+    background: linear-gradient(135.71deg, rgba(0, 0, 0, 0.21) 24.69%, #06559D 264.38%);
+}
+
+.footerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 48px;
+}
+
+.footerDiv img {
+    margin-left: 9%;
+    margin-top: 72px;
+}
+
+.footerContentDiv {
+    display: flex;
+    align-items: centers;
+    margin-left: 9%;
+    margin-right: 2%;
+    margin-top: 48px;
+}
+
+.footerContentTextDiv {
+    width: 50%;
+}
+
+.footerContentText {
+    color: white;
+    font-size: 20px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 300;
+}
+
+.footerLinksContainerDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0px 0px 96px;
+}
+
+.footerLinksDiv {
+    display: flex;
+}
+
+.footerLinksDiv li {
+    display: inline-block;
+    padding-bottom: 32px;
+    list-style-type: none;
+}
+
+.footerLinksDiv a {
+    text-decoration: none;
+    color: white;
+    margin-right: 56px;
+    font-size: 20px;
+}
+
+.footerLineBreak {
+    background-color: white;
+    width: 85%;
+    height: 1px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+}
+
+.footerBottom {
+    display: flex;
+    width: 100%;
+}
+
+.footerBottomCopyrightDiv {
+    width: 50%;
+    margin-top: 24px;
+    margin-left: 4.5%;
+    margin-bottom: 32px;
+}
+
+.footerBottomCopyrightDiv img {
+    width: 10px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.footerBottomCopyrightDiv span {
+    color: white;
+    margin-left: 0px;
+}
+
+.footerSocials {
+    display: flex;
+    width: 20%;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 14%;
+}
+
+.footerSocials img {
+    margin-top: 0px;
+    padding: 0px;
+    width: 20px;
+}
