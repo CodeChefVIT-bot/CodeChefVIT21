@@ -25,8 +25,19 @@
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
-    text-decoration: underline #1579D6 4.5px;
-    text-underline-offset: 0.6em;
+    position: relative;
+}
+
+.projectTitleDiv h1:after {
+    content: '';
+    height: 4px;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #1579D6;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 25%);
+    top: 82px;
 }
 
 
@@ -194,6 +205,8 @@
     font-weight: 200;
     cursor: pointer;
     transition: 0.4s ease-in-out;
+    outline: none;
+    border: none;
 }
 
 .viewAllBtn:hover {

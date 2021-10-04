@@ -13,8 +13,19 @@
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
-    text-decoration: underline #1579D6 4.5px;
-    text-underline-offset: 0.6em;
+    position: relative;
+}
+
+.contactUsTitle:after {
+    content: '';
+    height: 4px;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #1579D6;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 25%);
+    top: 82px;
 }
 
 .contactUsDiv2 {
@@ -60,18 +71,33 @@
 .contactBox textarea {
     width: 50%;
     padding: 0.5rem;
-    border: 3px solid rgba(10, 122, 224, 0.8);
-    border-width: 0px 0px 2px 0px;
-    background-color: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-width: 1px;
+    background: transparent;
     color: #fff;
     outline: none;
     border-radius: 5px;
+    outline: none;
+}
+
+.contactBox input:focus,
+.contactBox textarea:focus {
+    border: 1px solid rgba(10, 122, 224, 0.8);
+    border-width: 0px 0px 2px 0px;
+    background-color: #272727;
+}
+
+.contactBox textarea {
+    resize: none;
 }
 
 .contactBox label {
     display: block;
     text-align: left;
     color: #fff;
+    opacity: 0.8;
     margin-left: 25%;
     padding: 10px 0;
     font-family: 'Inter', sans-serif;
@@ -86,19 +112,22 @@
 
 .contactBox textarea {
     font-size: 16px;
+    font-family: 'Inter', sans-serif;
 }
 
 .sendBtn {
     margin: 30px auto;
     text-decoration: none;
     padding: 0.8rem 4rem;
-    background: #3E62DF;
+    background: #1579D6;
     color: #fff;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 200;
     cursor: pointer;
-    transition: 0.4s ease-in-out;
+    transition: 0.2s ease-in;
+    border: none;
+    outline: none;
 }
 
 .sendBtn:hover {

@@ -1,26 +1,40 @@
-#aboutUs{
+#aboutUs {
     width: 100%;
     height: 100vh;
     background-color: #111;
 }
-.aboutUsDiv{
+
+.aboutUsDiv {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.aboutUsTitle{
+
+.aboutUsTitle {
     color: #fff;
     font-size: 48px;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     margin-top: 13%;
     margin-bottom: 5%;
-    text-decoration: underline #1579D6 4.5px;
-    text-underline-offset: 0.6em;
+    position: relative;
 }
-.aboutUsDiv2{
+
+.aboutUsTitle:after {
+    content: '';
+    height: 4px;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #1579D6;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 25%);
+    top: 82px;
+}
+
+.aboutUsDiv2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -30,7 +44,8 @@
     margin-left: 10%;
     margin-right: 10%;
 }
-.aboutUsPara{
+
+.aboutUsPara {
     color: #fff;
     opacity: 80%;
     font-size: 24px;
