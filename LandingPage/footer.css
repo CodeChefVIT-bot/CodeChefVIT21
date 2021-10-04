@@ -95,6 +95,7 @@ section.footer {
     align-items: flex-start;
     margin-top: 20px;
     margin-left: 14%;
+    cursor: pointer;
 }
 
 .footerSocials img {
