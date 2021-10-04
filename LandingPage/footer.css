@@ -97,8 +97,13 @@ section.footer {
     margin-left: 14%;
 }
 
-.footerSocials img {
+.footerSocials a img {
     margin-top: 0px;
     padding: 0px;
     width: 20px;
+}
+
+.footerSocials a {
+    padding-left: 16px;
+    padding-right: 16px;
 }
