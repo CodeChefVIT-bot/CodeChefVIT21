@@ -118,14 +118,15 @@
 .sendBtn {
     margin: 30px auto;
     text-decoration: none;
-    padding: 0.8rem 4rem;
+    width: 160px;
+    height: 48px;
     background: #1579D6;
     color: #fff;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 200;
     cursor: pointer;
-    transition: 0.2s ease-in;
+    transition: 0.3s ease-in;
     border: none;
     outline: none;
 }

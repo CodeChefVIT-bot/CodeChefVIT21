@@ -95,7 +95,8 @@ span {
 
 /*ScrollDown*/
 
-.scrolldown {
+
+/* .scrolldown {
     position: relative;
     bottom: -190%;
     left: 50%;
@@ -144,4 +145,23 @@ span {
         left: 5px;
         opacity: 0;
     }
+} */
+
+.heroArrowDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.heroArrow {
+    opacity: 0.8;
+}
+
+.heroArrow {
+    transition: all 0.3s ease-in-out;
+}
+
+.heroArrow:hover {
+    transform: translateY(8px);
+    opacity: 1;
 }

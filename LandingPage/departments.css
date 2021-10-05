@@ -24,7 +24,7 @@
     height: 4px;
     border-radius: 8px;
     width: 50%;
-    background-color: #1579D6;
+    /* background-color: #1579D6; */
     position: absolute;
     bottom: 0;
     left: calc(50% - 25%);
@@ -79,7 +79,7 @@
 }
 
 .cardFR:hover {
-    background-color: #1579D6;
+    background: linear-gradient(180deg, #205689 0%, #093966 100%);
     box-shadow: none;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .cardFRCompetitive:hover {
-    background-color: #1579D6;
+    background: linear-gradient(180deg, #205689 0%, #093966 100%);
     box-shadow: none;
 }
 

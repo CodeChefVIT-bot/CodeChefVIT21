@@ -1,12 +1,12 @@
 #sponsors {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-color: #111;
 }
 
 .sponsorsDiv {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 3%;
     display: flex;
     justify-content: center;
 }
@@ -37,9 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10%;
-    /* transition: all 10s ease-in-out; */
-    /* animation-duration: 20s; */
+    margin-top: 5%;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -49,12 +47,13 @@
         transform: translateX(0px);
     }
     100% {
-        transform: translateX(-5000px);
+        transform: translateX(-5100px);
     }
 }
 
 .sponsorsIconsImg {
     width: 15%;
-    margin: 0px 48px 0px 48px;
+    display: inline-block;
+    margin: 0px 80px 0px 80px;
     animation: translation 50s linear infinite;
 }
