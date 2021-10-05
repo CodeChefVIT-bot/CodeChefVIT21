@@ -1,9 +1,9 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-html{
+html {
     scroll-behavior: smooth;
 }
 body {
@@ -13,7 +13,7 @@ body {
 
 /* Home Section */
 
-#home{
+#home {
     background-image: url(../Images/Heroimage.png);
     overflow: hidden;
     background-size: cover;
@@ -56,11 +56,11 @@ span {
 
 /*Floating Socials*/
 
-.socialsFloat{
+.socialsFloat {
     position: absolute;
     top: 365px;
 }
-.socialsFloat a{
+.socialsFloat a {
     width: 36px;
     height: 36px;
     background: #1579D6;
@@ -72,17 +72,18 @@ span {
     margin-bottom: 14px;
     transition: all 0.2s ease-in;
 }
-.socialsFloat a:hover{
+.socialsFloat a:hover {
     width: 46px;
     height: 46px;
 }
-.bigsocial{
+.bigsocial {
     width: 23px;
 }
 
 /*ScrollDown*/
 
-.scrolldown{
+
+/* .scrolldown {
     position: relative;
     bottom: -190%;
     left: 50%;
@@ -90,7 +91,7 @@ span {
     height: 25px;
     transform: translateY(-80px) translateX(-50%) rotate(45deg);
 }
-.scrolldown span{
+.scrolldown span {
     position: absolute;
     top: 0;
     left: 0;
@@ -102,30 +103,45 @@ span {
     animation: animate 1.5s linear infinite;
     opacity: 0;
 }
-.scrolldown span:nth-child(1){
-    transform: translate(-15px,-15px);
+.scrolldown span:nth-child(1) {
+    transform: translate(-15px, -15px);
     animation-delay: 0.35s;
 }
-.scrolldown span:nth-child(2){
-    transform: translate(0,0);
+.scrolldown span:nth-child(2) {
+    transform: translate(0, 0);
     animation-delay: 0.2s;
 }
-
 @keyframes animate {
-    0%{
+    0% {
         top: -5px;
         left: -5px;
-        opacity:0;
+        opacity: 0;
     }
-    25%{
+    25% {
         top: 0px;
         left: 0px;
-        opacity:1;
+        opacity: 1;
     }
-    50%, 100%{
+    50%,
+    100% {
         top: 5px;
         left: 5px;
-        opacity:0;
+        opacity: 0;
     }
-    
+} */
+
+.heroArrowDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+.heroArrow {
+    opacity: 0.8;
+}
+.heroArrow {
+    transition: all 0.3s ease-in-out;
+}
+.heroArrow:hover {
+    transform: translateY(8px);
+    opacity: 1;
 }

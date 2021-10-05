@@ -1,26 +1,36 @@
-#aboutUs{
+#aboutUs {
     width: 100%;
     height: 100vh;
     background-color: #111;
 }
-.aboutUsDiv{
+.aboutUsDiv {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.aboutUsTitle{
+.aboutUsTitle {
     color: #fff;
     font-size: 48px;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     margin-top: 13%;
     margin-bottom: 5%;
-    text-decoration: underline #1579D6 4.5px;
-    text-underline-offset: 0.6em;
+    position: relative;
 }
-.aboutUsDiv2{
+.aboutUsTitle:after {
+    content: '';
+    height: 4px;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #1579D6;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 25%);
+    top: 82px;
+}
+.aboutUsDiv2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -30,9 +40,62 @@
     margin-left: 10%;
     margin-right: 10%;
 }
-.aboutUsPara{
+.aboutUsPara {
     color: #fff;
     opacity: 80%;
     font-size: 24px;
     line-height: 160%;
+}
+
+/*ScrollDown*/
+
+.scrolldown {
+    position: relative;
+    bottom: -30%;
+    left: calc(50% - 1%);
+    width: 25px;
+    height: 25px;
+    transform: translateY(-80px) translateX(-50%) rotate(45deg);
+}
+
+.scrolldown span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+}
+
+.scrolldown span:nth-child(1) {
+    transform: translate(-15px, -15px);
+    animation-delay: 0.35s;
+}
+
+.scrolldown span:nth-child(2) {
+    transform: translate(0, 0);
+    animation-delay: 0.2s;
+}
+
+@keyframes animate {
+    0% {
+        top: -5px;
+        left: -5px;
+        opacity: 0;
+    }
+    25% {
+        top: 0px;
+        left: 0px;
+        opacity: 1;
+    }
+    50%,
+    100% {
+        top: 5px;
+        left: 5px;
+        opacity: 0;
+    }
 }

@@ -21,7 +21,7 @@
     height: 4px;
     border-radius: 8px;
     width: 50%;
-    background-color: #1579D6;
+    /* background-color: #1579D6; */
     position: absolute;
     bottom: 0;
     left: calc(50% - 25%);
@@ -44,7 +44,6 @@
     border-radius: 16px;
     background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
     display: flex;
-    cursor: pointer;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -59,6 +58,7 @@
     display: none;
     color: white;
     margin-top: 32px;
+    transition: all 0.9s ease-in-out;
 }
 .cardFR span {
     display: none;
@@ -68,10 +68,10 @@
     margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
-    transition: all 0.7s ease-in-out;
+    transition: all 0.9s ease-in-out;
 }
 .cardFR:hover {
-    background-color: #1579D6;
+    background: linear-gradient(180deg, #205689 0%, #093966 100%);
     box-shadow: none;
 }
 .cardFR:hover img,
@@ -89,6 +89,7 @@
     display: none;
     color: white;
     margin-top: 32px;
+    transition: all 0.9s ease-in-out;
 }
 .cardFRCompetitive span {
     display: none;
@@ -98,12 +99,11 @@
     margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
-    transition: all 0.7s ease-in-out;
+    transition: all 0.9s ease-in-out;
 }
 .cardFRCompetitive:hover {
-    background-color: #1579D6;
+    background: linear-gradient(180deg, #205689 0%, #093966 100%);
     box-shadow: none;
-    transition: all 0.7s ease-in-out;
 }
 .cardFRCompetitive:hover img,
 .cardFRCompetitive:hover p {
@@ -119,6 +119,7 @@
     font-weight: 500;
     padding-top: 40px;
     text-align: center;
+    transition: all 0.7s ease-in-out;
 }
 
 /* For competitive card */
@@ -129,7 +130,6 @@
     border-radius: 16px;
     background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
     display: flex;
-    cursor: pointer;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -140,6 +140,10 @@
 .departmentCardimageCompetitive {
     margin-bottom: 40px;
     margin-top: 17%;
+    transition: all 0.9s ease-in-out;
+}
+.departmentCardimage {
+    transition: all 0.9s ease-in-out;
 }
 .cardTitleCompetitve {
     color: white;
@@ -151,7 +155,6 @@
 }
 
 /* Second Row */
-
 #departmentsCardsSecondRow {
     display: flex;
     align-items: center;
