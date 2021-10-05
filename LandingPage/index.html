@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./sponsors.css">
     <link rel="stylesheet" href="./footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
     <section id="home">
@@ -35,7 +37,7 @@
             <div class="hero">
                 <p class="Sub-title">Codechef-VIT believes in the notion of learning by doing</p>
                 <p class="Hero-title1">At Codechef-VIT we believe</p>
-                <p class="Hero-title2">in<span id="heroChangingTitle">learning.</span></p>
+                <p class="Hero-title2">in<span id="app"></span></p>
     
             </div>
             <div class="socialsFloat">
@@ -124,13 +126,15 @@
     <section id="projects">
         <div class="projectContainer">
             <div class="projectTitleDiv">
-                <h1>Our Projects</h1>          
+                <h1>Our Projects</h1>
             </div>
             <div class="projectTabs">
+                <div class="blackBox1"></div>
+                <div class="blackBox2"></div>
                 <ul>
                     <li class="tab" id="all">All</li>
                     <li class="tab" id="web">Web</li>
-                    <li class="tab" id="app">Apps</li>
+                    <li class="tab Apps" id="app">Apps</li>
                 </ul>
             </div>
             <div class="projectShowcase">
@@ -210,7 +214,7 @@
                     </div>
 
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/RoadToDevSoc-P8.png" alt="">
+                        <img class="projectsImage" src="../Images/Projects/RoadToDevSoc-P8.png" alt="">
                         <div class="info">
                             <h1>RoadToDevSoc'21</h1>
                             <p>Official Website showcasing the roadmap for all the events before DevSoc'21</p>
@@ -233,7 +237,6 @@
             </div>
 
             <button class="viewAllBtn"><a href="#" class="btn">View All &rarr;</a></button>
-
         </div>
     </section>
 
@@ -290,6 +293,11 @@
         </div>
     </section>
 
+
+    <!-- Scroll to top Button -->
+    <button class="scroll-to-top"><i class="fa fa-chevron-up"></button>
+
+        
     <section class="footer">
         <div class="footerDiv">
             <img src="../Images/codechef_logo_1.svg" alt="Codechef logo footer">
@@ -336,5 +344,6 @@
             </div>
         </div>
     </section>
+    <script src="./Main.js"></script>
 </body>
 </html>
