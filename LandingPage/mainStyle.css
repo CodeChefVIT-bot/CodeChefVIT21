@@ -133,7 +133,7 @@ span {
 .heroArrowDiv {
     display: flex;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .heroArrow {
     opacity: 0.8;

@@ -21,7 +21,7 @@
     height: 4px;
     border-radius: 8px;
     width: 50%;
-    /* background-color: #1579D6; */
+    background-color: #1579D6;
     position: absolute;
     bottom: 0;
     left: calc(50% - 25%);
@@ -58,7 +58,7 @@
     display: none;
     color: white;
     margin-top: 32px;
-    transition: all 0.9s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 .cardFR span {
     display: none;
@@ -68,7 +68,7 @@
     margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
-    transition: all 0.9s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 .cardFR:hover {
     background: linear-gradient(180deg, #205689 0%, #093966 100%);
@@ -89,7 +89,7 @@
     display: none;
     color: white;
     margin-top: 32px;
-    transition: all 0.9s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 .cardFRCompetitive span {
     display: none;
@@ -99,7 +99,7 @@
     margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
-    transition: all 0.9s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 .cardFRCompetitive:hover {
     background: linear-gradient(180deg, #205689 0%, #093966 100%);
