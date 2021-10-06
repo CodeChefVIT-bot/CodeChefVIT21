@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     /* display: flex;
     flex-wrap: wrap; */
     position: sticky;
@@ -9,7 +9,8 @@
     padding: 10px 90px;
     box-sizing: border-box;
 }
-#logo{
+
+#logo {
     /* display: flex;
     justify-content: flex-start; */
     float: left;
@@ -17,14 +18,16 @@
     padding: 10px;
     height: 100px;
 }
-.navbar ul{
+
+.navbar ul {
     list-style: none;
     float: right;
     margin-top: 5px;
     padding: 0;
     display: flex;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     line-height: 80px;
     color: #fff;
     padding: 12px 30px;
@@ -33,7 +36,8 @@
     font-family: 'Inter', sans-serif;
     /* text-transform: uppercase; */
 }
-.navbar ul li a:hover{
-    text-decoration: underline #0087ca 4px;
+
+.navbar ul li a:hover {
+    text-decoration: underline #0087ca 2px;
     text-underline-offset: 0.6em;
 }

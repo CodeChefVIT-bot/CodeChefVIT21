@@ -1,31 +1,36 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: #111;
     font-family: 'inter', sans-serif;
 }
 
+
 /* Home Section */
 
-#home{
+#home {
     background-image: url(../Images/Heroimage.png);
     overflow: hidden;
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
+
 div.hero {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
     margin-top: 264px;
 }
+
 p.Sub-title {
     color: rgba(255, 255, 255, 0.603);
     display: inline-block;
@@ -34,6 +39,7 @@ p.Sub-title {
     padding-bottom: 32px;
     font-weight: 600;
 }
+
 p.Hero-title1 {
     color: white;
     font-size: 72px;
@@ -42,6 +48,7 @@ p.Hero-title1 {
     font-weight: 800;
     padding-top: 8px;
 }
+
 p.Hero-title2 {
     color: white;
     font-size: 72px;
@@ -49,7 +56,112 @@ p.Hero-title2 {
     display: inline;
     font-weight: 800;
 }
+
 span {
     margin-left: 16px;
     color: #1579D6;
+}
+
+
+/*Floating Socials*/
+
+.socialsFloat {
+    position: absolute;
+    top: 365px;
+}
+
+.socialsFloat a {
+    width: 36px;
+    height: 36px;
+    background: #1579D6;
+    border-radius: 50%;
+    /* border: 1px solid #1579D6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+    transition: all 0.2s ease-in;
+}
+
+.socialsFloat a:hover {
+    width: 46px;
+    height: 46px;
+}
+
+.bigsocial {
+    width: 23px;
+}
+
+
+/*ScrollDown*/
+
+
+/* .scrolldown {
+    position: relative;
+    bottom: -190%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    transform: translateY(-80px) translateX(-50%) rotate(45deg);
+}
+
+.scrolldown span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+}
+
+.scrolldown span:nth-child(1) {
+    transform: translate(-15px, -15px);
+    animation-delay: 0.35s;
+}
+
+.scrolldown span:nth-child(2) {
+    transform: translate(0, 0);
+    animation-delay: 0.2s;
+}
+
+@keyframes animate {
+    0% {
+        top: -5px;
+        left: -5px;
+        opacity: 0;
+    }
+    25% {
+        top: 0px;
+        left: 0px;
+        opacity: 1;
+    }
+    50%,
+    100% {
+        top: 5px;
+        left: 5px;
+        opacity: 0;
+    }
+} */
+
+.heroArrowDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.heroArrow {
+    opacity: 0.8;
+}
+
+.heroArrow {
+    transition: all 0.3s ease-in-out;
+}
+
+.heroArrow:hover {
+    transform: translateY(8px);
+    opacity: 1;
 }
