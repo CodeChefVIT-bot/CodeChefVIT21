@@ -75,7 +75,7 @@
     }
     
     span {
-        margin-left: 16px;
+        margin-left: 4px;
         color: #1579D6;
     }
     /*Floating Socials*/
@@ -148,6 +148,7 @@
     .scroll-to-top:hover {
         font-size: 30px;
     }
+    /* Responsive styles */
     
     @media only screen and (max-width:1150px) {
         .heroArrowDiv {
@@ -284,10 +285,30 @@
     
     @media only screen and (max-width:765px) {
         .socialsFloat {
-            display: none;
+            float: right;
+            position: relative;
+            top: -140px;
+            margin-left: 48px;
+        }
+        .socialsFloat a {
+            width: 28px;
+            height: 28px;
+        }
+        .socialsFloat a:hover {
+            width: 36px;
+            height: 36px;
+        }
+        .bigsocial {
+            width: 16px;
         }
         p.Sub-title {
             font-size: 16px;
+        }
+    }
+    
+    @media only screen and (max-width:720px) {
+        .socialsFloat {
+            display: none;
         }
     }
     
@@ -295,11 +316,98 @@
         div.hero {
             margin-top: 232px;
         }
+        .heroArrowDiv {
+            margin-top: 190px;
+        }
     }
     
     @media only screen and (max-width:660px) {
         p.Sub-title {
             font-size: 14px;
             padding-bottom: 16px;
+        }
+        div.hero {
+            margin-left: 5%;
+        }
+    }
+    
+    @media only screen and (max-width:600px) {
+        p.Sub-title {
+            font-size: 12px;
+        }
+        p.Hero-title1 {
+            font-size: 36px;
+        }
+        p.Hero-title2 {
+            font-size: 36px;
+        }
+        .heroArrowDiv {
+            margin-top: 220px;
+        }
+    }
+    
+    @media only screen and (max-width:465px) {
+        p.Hero-title1 {
+            font-size: 32px;
+        }
+        p.Hero-title2 {
+            font-size: 32px;
+        }
+        .heroArrowDiv {
+            margin-top: 232px;
+        }
+    }
+    
+    @media only screen and (max-width:430px) {
+        .heroArrowDiv {
+            margin-top: 246px;
+        }
+        .heroArrowDiv img {
+            width: 80%;
+        }
+    }
+    
+    @media only screen and (max-width:422px) {
+        .heroArrowDiv {
+            margin-top: 200px;
+        }
+        .heroArrowDiv img {
+            width: 80%;
+        }
+    }
+    
+    @media only screen and (max-width:404px) {
+        .heroArrowDiv {
+            margin-top: 170px;
+        }
+        .heroArrowDiv img {
+            width: 60%;
+        }
+    }
+    
+    @media only screen and (max-width:360px) {
+        p.Sub-title {
+            font-size: 10px;
+        }
+        p.Hero-title1 {
+            font-size: 28px
+        }
+        p.Hero-title2 {
+            font-size: 28px;
+        }
+        .heroArrowDiv {
+            margin-top: 200px;
+        }
+    }
+    
+    @media only screen and (max-width:300px) {
+        p.Sub-title {
+            font-size: 8px;
+        }
+        p.Hero-title1 {
+            font-size: 24px
+        }
+        p.Hero-title2 {
+            font-size: 24px;
         }
     }
