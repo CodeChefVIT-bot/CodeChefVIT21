@@ -109,6 +109,12 @@
 
 /* Responsive styles */
 
+@media only screen and (max-width:650px) {
+    .scrolldown {
+        bottom: -15%;
+    }
+}
+
 @media only screen and (max-width:550px) {
     .aboutUsTitle {
         font-size: 40px;

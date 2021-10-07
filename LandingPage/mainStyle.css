@@ -11,6 +11,8 @@
     body {
         background-color: #111;
         font-family: 'inter', sans-serif;
+        overflow-x: hidden;
+        overflow-y: scroll;
     }
     /*ScrollBar*/
     
@@ -45,12 +47,13 @@
         flex-direction: column;
         margin-left: 10%;
         margin-top: 264px;
-        ;
+        margin-right: 0;
+        width: 100%;
     }
     
     p.Sub-title {
         color: rgba(255, 255, 255, 0.603);
-        display: inline-block;
+        display: block;
         font-size: 24px;
         margin: 0;
         padding-bottom: 32px;
@@ -60,7 +63,7 @@
     p.Hero-title1 {
         color: white;
         font-size: 72px;
-        display: inline-block;
+        display: block;
         margin: 0;
         font-weight: 800;
         padding-top: 8px;
@@ -70,7 +73,7 @@
         color: white;
         font-size: 72px;
         margin: 0;
-        display: inline;
+        display: block;
         font-weight: 800;
     }
     
@@ -136,7 +139,7 @@
         ;
         width: 50px;
         height: 50px;
-        font-size: 25px;
+        font-size: 24px;
         color: #fff;
         background-color: rgba(19, 129, 230, 0.8);
         opacity: 90%;
@@ -307,8 +310,11 @@
     }
     
     @media only screen and (max-width:720px) {
-        .socialsFloat {
+        div.socialsFloat {
             display: none;
+        }
+        .hero {
+            margin-left: 0%;
         }
     }
     
@@ -322,12 +328,21 @@
     }
     
     @media only screen and (max-width:660px) {
-        p.Sub-title {
-            font-size: 14px;
-            padding-bottom: 16px;
+        div.socialsFloat {
+            display: none;
         }
         div.hero {
-            margin-left: 5%;
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .heroArrowDiv {
+            margin-top: 180px;
+        }
+    }
+    
+    @media only screen and (max-width:615px) {
+        .heroArrowDiv {
+            margin-top: 170px;
         }
     }
     
@@ -344,17 +359,31 @@
         .heroArrowDiv {
             margin-top: 220px;
         }
+        .scroll-to-top {
+            right: 10%;
+            width: 40px;
+            height: 40px;
+        }
+    }
+    
+    @media only screen and (max-width:515px) {
+        p.Sub-title {
+            font-size: 10px;
+        }
     }
     
     @media only screen and (max-width:465px) {
         p.Hero-title1 {
-            font-size: 32px;
+            font-size: 24px;
         }
         p.Hero-title2 {
-            font-size: 32px;
+            font-size: 24px;
+        }
+        p.Sub-title {
+            font-size: 9px;
         }
         .heroArrowDiv {
-            margin-top: 232px;
+            margin-top: 272px;
         }
     }
     
@@ -365,6 +394,12 @@
         .heroArrowDiv img {
             width: 80%;
         }
+        p.Sub-title {
+            font-size: 8px;
+        }
+        .heroArrowDiv {
+            margin-top: 272px;
+        }
     }
     
     @media only screen and (max-width:422px) {
@@ -373,6 +408,9 @@
         }
         .heroArrowDiv img {
             width: 80%;
+        }
+        .heroArrowDiv {
+            margin-top: 280px;
         }
     }
     
@@ -383,31 +421,48 @@
         .heroArrowDiv img {
             width: 60%;
         }
-    }
-    
-    @media only screen and (max-width:360px) {
         p.Sub-title {
-            font-size: 10px;
-        }
-        p.Hero-title1 {
-            font-size: 28px
-        }
-        p.Hero-title2 {
-            font-size: 28px;
-        }
-        .heroArrowDiv {
-            margin-top: 200px;
-        }
-    }
-    
-    @media only screen and (max-width:300px) {
-        p.Sub-title {
-            font-size: 8px;
+            font-size: 6px;
+            padding-bottom: 8pxs
         }
         p.Hero-title1 {
             font-size: 24px
         }
         p.Hero-title2 {
             font-size: 24px;
+        }
+        .heroArrowDiv {
+            margin-top: 300px;
+        }
+    }
+    
+    @media only screen and (max-width:360px) {
+        .heroArrowDiv {
+            margin-top: 200px;
+        }
+        p.Sub-title {
+            font-size: 6px;
+            padding-bottom: 8px
+        }
+        p.Hero-title1 {
+            font-size: 20px
+        }
+        p.Hero-title2 {
+            font-size: 20px;
+        }
+        .heroArrowDiv {
+            margin-top: 320px;
+        }
+    }
+    
+    @media only screen and (max-width:330px) {
+        p.Sub-title {
+            font-size: 4px;
+        }
+        p.Hero-title1 {
+            font-size: 14px
+        }
+        p.Hero-title2 {
+            font-size: 14px;
         }
     }
