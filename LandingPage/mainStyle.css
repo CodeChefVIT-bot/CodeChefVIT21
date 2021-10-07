@@ -11,8 +11,11 @@
     body {
         background-color: #111;
         font-family: 'inter', sans-serif;
+<<<<<<< HEAD
         overflow-x: hidden;
         overflow-y: scroll;
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
     }
     /*ScrollBar*/
     
@@ -47,13 +50,21 @@
         flex-direction: column;
         margin-left: 10%;
         margin-top: 264px;
+<<<<<<< HEAD
         margin-right: 0;
         width: 100%;
+=======
+        ;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
     }
     
     p.Sub-title {
         color: rgba(255, 255, 255, 0.603);
+<<<<<<< HEAD
         display: block;
+=======
+        display: inline-block;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         font-size: 24px;
         margin: 0;
         padding-bottom: 32px;
@@ -63,7 +74,11 @@
     p.Hero-title1 {
         color: white;
         font-size: 72px;
+<<<<<<< HEAD
         display: block;
+=======
+        display: inline-block;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         margin: 0;
         font-weight: 800;
         padding-top: 8px;
@@ -73,7 +88,11 @@
         color: white;
         font-size: 72px;
         margin: 0;
+<<<<<<< HEAD
         display: block;
+=======
+        display: inline;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         font-weight: 800;
     }
     
@@ -139,7 +158,11 @@
         ;
         width: 50px;
         height: 50px;
+<<<<<<< HEAD
         font-size: 24px;
+=======
+        font-size: 25px;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         color: #fff;
         background-color: rgba(19, 129, 230, 0.8);
         opacity: 90%;
@@ -310,12 +333,18 @@
     }
     
     @media only screen and (max-width:720px) {
+<<<<<<< HEAD
         div.socialsFloat {
             display: none;
         }
         .hero {
             margin-left: 0%;
         }
+=======
+        .socialsFloat {
+            display: none;
+        }
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
     }
     
     @media only screen and (max-width:690px) {
@@ -328,6 +357,7 @@
     }
     
     @media only screen and (max-width:660px) {
+<<<<<<< HEAD
         div.socialsFloat {
             display: none;
         }
@@ -343,6 +373,14 @@
     @media only screen and (max-width:615px) {
         .heroArrowDiv {
             margin-top: 170px;
+=======
+        p.Sub-title {
+            font-size: 14px;
+            padding-bottom: 16px;
+        }
+        div.hero {
+            margin-left: 5%;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         }
     }
     
@@ -359,6 +397,7 @@
         .heroArrowDiv {
             margin-top: 220px;
         }
+<<<<<<< HEAD
         .scroll-to-top {
             right: 10%;
             width: 40px;
@@ -370,10 +409,13 @@
         p.Sub-title {
             font-size: 10px;
         }
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
     }
     
     @media only screen and (max-width:465px) {
         p.Hero-title1 {
+<<<<<<< HEAD
             font-size: 24px;
         }
         p.Hero-title2 {
@@ -384,6 +426,15 @@
         }
         .heroArrowDiv {
             margin-top: 272px;
+=======
+            font-size: 32px;
+        }
+        p.Hero-title2 {
+            font-size: 32px;
+        }
+        .heroArrowDiv {
+            margin-top: 232px;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         }
     }
     
@@ -394,12 +445,15 @@
         .heroArrowDiv img {
             width: 80%;
         }
+<<<<<<< HEAD
         p.Sub-title {
             font-size: 8px;
         }
         .heroArrowDiv {
             margin-top: 272px;
         }
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
     }
     
     @media only screen and (max-width:422px) {
@@ -409,9 +463,12 @@
         .heroArrowDiv img {
             width: 80%;
         }
+<<<<<<< HEAD
         .heroArrowDiv {
             margin-top: 280px;
         }
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
     }
     
     @media only screen and (max-width:404px) {
@@ -421,6 +478,7 @@
         .heroArrowDiv img {
             width: 60%;
         }
+<<<<<<< HEAD
         p.Sub-title {
             font-size: 6px;
             padding-bottom: 8pxs
@@ -464,5 +522,33 @@
         }
         p.Hero-title2 {
             font-size: 14px;
+=======
+    }
+    
+    @media only screen and (max-width:360px) {
+        p.Sub-title {
+            font-size: 10px;
+        }
+        p.Hero-title1 {
+            font-size: 28px
+        }
+        p.Hero-title2 {
+            font-size: 28px;
+        }
+        .heroArrowDiv {
+            margin-top: 200px;
+        }
+    }
+    
+    @media only screen and (max-width:300px) {
+        p.Sub-title {
+            font-size: 8px;
+        }
+        p.Hero-title1 {
+            font-size: 24px
+        }
+        p.Hero-title2 {
+            font-size: 24px;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         }
     }

@@ -109,12 +109,15 @@
 
 /* Responsive styles */
 
+<<<<<<< HEAD
 @media only screen and (max-width:650px) {
     .scrolldown {
         bottom: -15%;
     }
 }
 
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
 @media only screen and (max-width:550px) {
     .aboutUsTitle {
         font-size: 40px;

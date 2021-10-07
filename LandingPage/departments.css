@@ -68,7 +68,11 @@
         color: white;
         opacity: 0.8;
         text-align: center;
+<<<<<<< HEAD
         margin-top: 8px;
+=======
+        margin-top: 5%;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         margin-left: 2%;
         margin-right: 2%;
         transition: all 0.9s ease-in-out;
@@ -93,8 +97,12 @@
     .cardFRCompetitive h2 {
         display: none;
         color: white;
+<<<<<<< HEAD
         text-align: center;
         margin-top: 24px;
+=======
+        margin-top: 32px;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         transition: all 0.9s ease-in-out;
     }
     
@@ -103,7 +111,11 @@
         color: white;
         opacity: 0.8;
         text-align: center;
+<<<<<<< HEAD
         margin-top: 16px;
+=======
+        margin-top: 5%;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         margin-left: 2%;
         margin-right: 2%;
         transition: all 0.9s ease-in-out;
@@ -185,6 +197,7 @@
         .cardTitleCompetitve {
             font-size: 28px;
         }
+<<<<<<< HEAD
         .cardFR h2 {
             font-size: 30px;
         }
@@ -197,6 +210,8 @@
         .cardFRCompetitive span {
             font-size: 14px;
         }
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         .departmentCardimage {
             width: 30%;
         }
@@ -218,6 +233,7 @@
         .cardTitleCompetitve {
             font-size: 24px;
         }
+<<<<<<< HEAD
         .cardFR h2 {
             font-size: 24px;
         }
@@ -230,6 +246,8 @@
         .cardFRCompetitive span {
             font-size: 11px;
         }
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         .cardFR {
             height: 240px;
         }
@@ -245,6 +263,7 @@
         .cardTitleCompetitve {
             font-size: 20px;
         }
+<<<<<<< HEAD
         .cardFR h2 {
             font-size: 23px;
         }
@@ -257,6 +276,8 @@
         .cardFRCompetitive span {
             font-size: 11px;
         }
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         .cardFR {
             height: 210px;
         }
@@ -265,6 +286,7 @@
         }
     }
     
+<<<<<<< HEAD
     @media only screen and (max-width:650px) {
         .cardTitle {
             font-size: 18px;
@@ -294,6 +316,8 @@
         }
     }
     
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
     @media only screen and (max-width:600px) {
         .cardTitle {
             font-size: 18px;
@@ -301,6 +325,7 @@
         .cardTitleCompetitve {
             font-size: 18px;
         }
+<<<<<<< HEAD
         .cardFR h2 {
             font-size: 18px;
         }
@@ -313,6 +338,8 @@
         .cardFRCompetitive span {
             font-size: 8px;
         }
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         .cardFR {
             height: 190px;
         }
@@ -328,12 +355,15 @@
         .departmentsTitle {
             font-size: 40px;
         }
+<<<<<<< HEAD
         .cardFR h2 {
             font-size: 16px;
         }
         .cardFRCompetitive h2 {
             font-size: 16px;
         }
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         .departmentsTitle:after {
             top: 64px;
         }
@@ -357,6 +387,7 @@
             font-size: 14px;
             padding-top: 8px;
         }
+<<<<<<< HEAD
         .cardFR h2 {
             font-size: 12px;
         }
@@ -371,6 +402,8 @@
             font-size: 6px;
             margin-top: 4px;
         }
+=======
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         .cardFR {
             height: 140px;
         }
@@ -395,10 +428,17 @@
             font-size: 10px;
         }
         .cardFR {
+<<<<<<< HEAD
             height: 110px;
         }
         .cardFRCompetitive {
             height: 110px;
+=======
+            height: 120px;
+        }
+        .cardFRCompetitive {
+            height: 120px;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         }
         .departmentCardimage {
             margin-bottom: 10px;
@@ -411,6 +451,7 @@
     }
     
     @media only screen and (max-width:360px) {
+<<<<<<< HEAD
         #departmentsCardsFirstRow {
             flex-direction: column;
             justify-content: center;
@@ -456,6 +497,25 @@
         .cardFRCompetitive {
             height: 180px;
             margin-top: 18px;
+=======
+        .cardTitle {
+            font-size: 8px;
+        }
+        .cardTitleCompetitve {
+            font-size: 6px;
+        }
+        .cardFR {
+            height: 90px;
+        }
+        .cardFRCompetitive {
+            height: 90px;
+        }
+        .departmentsTitle {
+            font-size: 36px;
+        }
+        .departmentsTitle:after {
+            top: 48px;
+>>>>>>> d7822cef9ebc91f3635dc19cf81847331532becd
         }
     }
     
