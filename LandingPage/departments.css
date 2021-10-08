@@ -321,7 +321,7 @@
         }
     }
     
-    @media only screen and (max-width:550px) {
+    @media only screen and (max-width:580px) {
         .cardTitle {
             font-size: 16px;
         }
@@ -348,7 +348,7 @@
         }
     }
     
-    @media only screen and (max-width:450px) {
+    @media only screen and (max-width:500px) {
         .cardTitle {
             font-size: 14px;
             padding-top: 8px;
@@ -387,30 +387,7 @@
         }
     }
     
-    @media only screen and (max-width:390px) {
-        .cardTitle {
-            font-size: 10px;
-        }
-        .cardTitleCompetitve {
-            font-size: 10px;
-        }
-        .cardFR {
-            height: 110px;
-        }
-        .cardFRCompetitive {
-            height: 110px;
-        }
-        .departmentCardimage {
-            margin-bottom: 10px;
-            margin-top: 10px;
-        }
-        .departmentCardimageCompetitive {
-            margin-bottom: 10px;
-            margin-top: 20px;
-        }
-    }
-    
-    @media only screen and (max-width:360px) {
+    @media only screen and (max-width:420px) {
         #departmentsCardsFirstRow {
             flex-direction: column;
             justify-content: center;
@@ -459,8 +436,29 @@
         }
     }
     
-    @media only screen and (max-width:300px) {
+    @media only screen and (max-width:550px) {
         .departmentsTitle {
             font-size: 32px;
+        }
+        .departmentsTitle:after {
+            top: 64px;
+        }
+    }
+    
+    @media only screen and (max-width:360px) {
+        .departmentsTitle {
+            font-size: 28px;
+        }
+        .departmentsTitle:after {
+            top: 46px;
+        }
+    }
+    
+    @media only screen and (max-width:300px) {
+        .departmentsTitle {
+            font-size: 20px;
+        }
+        .departmentsTitle:after {
+            top: 42px;
         }
     }

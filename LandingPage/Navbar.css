@@ -115,20 +115,6 @@
 }
 
 @media only screen and (max-width:690px) {
-    .navbar ul li a {
-        padding: 0px 8px;
-        font-size: 12px;
-    }
-    .Contact {
-        display: none;
-    }
-    #logo img {
-        width: 70%;
-        margin-left: 3%;
-    }
-}
-
-@media only screen and (max-width:600px) {
     .barsNavLi {
         display: block;
     }
@@ -136,6 +122,12 @@
         display: block;
     }
     .items {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #logo {
         display: none;
     }
 }
@@ -152,8 +144,10 @@
     }
 }
 
+
+/* 
 @media only screen and (max-width:450px) {
     #logo {
         display: none;
     }
-}
+} */

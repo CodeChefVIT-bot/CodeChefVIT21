@@ -35,10 +35,10 @@
 .sponsorsIconsDiv {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-top: 5%;
     overflow-x: hidden;
     overflow-y: hidden;
+    margin-right: 3%;
 }
 
 @keyframes translation {
@@ -55,4 +55,135 @@
     display: inline-block;
     margin: 0px 80px 0px 80px;
     animation: translation 50s linear infinite;
+}
+
+
+/* Responsive styles  */
+
+@media only screen and (max-width:1200px) {
+    @keyframes translation {
+        0% {
+            transform: translateX(0px);
+        }
+        100% {
+            transform: translateX(-4850px);
+        }
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    @keyframes translation {
+        0% {
+            transform: translateX(0px);
+        }
+        100% {
+            transform: translateX(-4650px);
+        }
+    }
+    #sponsors {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    @keyframes translation {
+        0% {
+            transform: translateX(0px);
+        }
+        100% {
+            transform: translateX(-4450px);
+        }
+    }
+    #sponsors {
+        height: 65vh;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    @keyframes translation {
+        0% {
+            transform: translateX(0px);
+        }
+        100% {
+            transform: translateX(-4250px);
+        }
+    }
+    #sponsors {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    @keyframes translation {
+        0% {
+            transform: translateX(0px);
+        }
+        100% {
+            transform: translateX(-4050px);
+        }
+    }
+    #sponsors {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    @keyframes translation {
+        0% {
+            transform: translateX(0px);
+        }
+        100% {
+            transform: translateX(-3950px);
+        }
+    }
+    #sponsors {
+        height: 0vh;
+    }
+}
+
+@media only screen and (max-width:200px) {
+    @keyframes translation {
+        0% {
+            transform: translateX(0px);
+        }
+        100% {
+            transform: translateX(-3850px);
+        }
+    }
+}
+
+
+/* Responisveness title */
+
+@media only screen and (max-width:550px) {
+    .sponsorsText {
+        font-size: 32px;
+    }
+    .sponsorsText:after {
+        top: 64px;
+    }
+    #sponsors {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .sponsorsText {
+        font-size: 24px;
+    }
+    .sponsorsText:after {
+        top: 44px;
+    }
+    #sponsors {
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .sponsorsText {
+        font-size: 20px;
+    }
+    .sponsorsText:after {
+        top: 42px;
+    }
 }

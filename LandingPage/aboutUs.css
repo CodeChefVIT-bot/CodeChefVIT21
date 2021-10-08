@@ -117,7 +117,7 @@
 
 @media only screen and (max-width:550px) {
     .aboutUsTitle {
-        font-size: 40px;
+        font-size: 32px;
     }
     .aboutUsPara {
         font-size: 20px;
@@ -125,28 +125,34 @@
     .aboutUsTitle:after {
         top: 64px;
     }
+    .scrolldown {
+        bottom: -25%;
+    }
 }
 
 @media only screen and (max-width:360px) {
     .aboutUsTitle {
-        font-size: 36px;
+        font-size: 28px;
     }
     .aboutUsPara {
         font-size: 16px;
     }
     .aboutUsTitle:after {
-        top: 48px;
+        top: 46px;
+    }
+    .scrolldown {
+        bottom: -25%;
     }
 }
 
 @media only screen and (max-width:300px) {
     .aboutUsTitle {
-        font-size: 32px;
+        font-size: 20px;
     }
     .aboutUsPara {
         font-size: 12px;
     }
     .aboutUsTitle:after {
-        top: 48px;
+        top: 42px;
     }
 }
