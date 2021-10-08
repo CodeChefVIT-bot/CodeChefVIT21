@@ -50,3 +50,81 @@
     margin: 0px 80px 0px 80px;
     animation: translation 50s linear infinite;
 }
+
+@media only screen and (max-width:1440px) {
+    #sponsors{
+        margin-bottom: -10%;
+    }
+}
+@media only screen and (max-width:1200px) {
+    #sponsors{
+        margin-bottom: -15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .sponsorsIconsDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:1000px) {
+    #sponsors{
+        margin-bottom: -18%;
+    }
+    .sponsorsIconsDiv {
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-width:800px) {
+    #sponsors{
+        margin-bottom: -22%;
+    }
+    .sponsorsIconsDiv {
+        margin-top: 15%;
+    }
+
+}
+@media only screen and (max-width:650px) {
+    #sponsors{
+        margin-bottom: -30%;
+    }
+    .sponsorsIconsDiv {
+        margin-top: 20%;
+    }
+}
+@media only screen and (max-width:560px) {
+    #sponsors{
+        margin-bottom: -35%;
+    }
+    .sponsorsIconsDiv {
+        margin-top: 25%;
+    }
+}
+@media only screen and (max-width:470px) {
+    #sponsors{
+        margin-bottom: -45%;
+    }
+    .sponsorsIconsDiv {
+        margin-top: 30%;
+    }
+    .sponsorsText{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:400px) {
+    #sponsors{
+        margin-bottom: -45%;
+    }
+    .sponsorsIconsDiv {
+        margin-top: 22%;
+    }
+    .sponsorsText{
+        font-size: 40px;
+    }
+}
