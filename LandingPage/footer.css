@@ -31,7 +31,7 @@ section.footer {
 .footerLinksContainerDiv {
     display: flex;
     flex-direction: column;
-    margin: 32px 0px 0px 96px;
+    margin: 32px 0px 0px 200px;
 }
 .footerLinksDiv {
     display: flex;
@@ -89,4 +89,57 @@ section.footer {
 .footerSocials a {
     padding-left: 16px;
     padding-right: 16px;
+}
+
+@media only screen and (max-width:1280px) {
+    .footer{
+        width: 100vw;
+    }
+    .footerBottom{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footerSocials{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 20%;
+        margin: auto;
+        padding-left: 10%;
+    }
+}
+@media only screen and (max-width:870px) {
+    .footerContentText{
+        display: none;
+    }
+    .footerLinksContainerDiv{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footerLinksDiv{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .footer{
+        width: 100vw;
+    }
+    .footerLinksContainerDiv {
+        display: flex;
+        flex-direction: row;
+        margin: 22px 0px 0px 50px;
+    }
 }

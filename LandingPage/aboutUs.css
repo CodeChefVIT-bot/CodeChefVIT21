@@ -99,3 +99,41 @@
         opacity: 0;
     }
 }
+
+/* Responsive styles */
+
+@media only screen and (max-width:550px) {
+    .aboutUsTitle {
+        font-size: 40px;
+    }
+    .aboutUsPara {
+        font-size: 20px;
+    }
+    .aboutUsTitle:after {
+        top: 64px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .aboutUsTitle {
+        font-size: 36px;
+    }
+    .aboutUsPara {
+        font-size: 16px;
+    }
+    .aboutUsTitle:after {
+        top: 48px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .aboutUsTitle {
+        font-size: 32px;
+    }
+    .aboutUsPara {
+        font-size: 12px;
+    }
+    .aboutUsTitle:after {
+        top: 48px;
+    }
+}
