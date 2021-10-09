@@ -14,13 +14,18 @@
     <link rel="stylesheet" href="./projects.css">
     <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="./sponsors.css">
+    <link rel="stylesheet" href="./devices.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    </style>
 </head>
 
 <body>
+
     <section id="home">
+
         <nav class="navbar">
             <div id="logo">
                 <img src="../Images/codechef_logo_1.svg" alt="Logo">
@@ -40,7 +45,8 @@
                     </li>
                 </ul>
             </div>
-
+        </nav>
+        <div class="heroDiv">
             <div class="hero">
                 <p class="Sub-title">Codechef-VIT believes in the notion of learning by doing</p>
                 <p class="Hero-title1">At Codechef-VIT we believe</p>
@@ -55,15 +61,23 @@
                     <img class="bigsocial" src="../Images/Socials/Twitter - Negative.svg" alt="">
                 </a>
                 <a href="https://www.youtube.com/c/CodeChefVIT" target="_blank">
-                    <img class="bigsocial" src="../Images/Socials/YouTube - Negative.svg" alt="">
+                    <img class="bigsocial LastSocial" src="../Images/Socials/YouTube - Negative.svg" alt="">
                 </a>
-            </div>
 
-            <div class="heroArrowDiv">
-                <a class="heroArrow" href="#aboutUs"><img src="../Images/Group 22.svg" alt=""></a>
+                <!-- <a href="https://www.instagram.com/codechefvit/" target="_blank">
+                    <img class="bigsocialActive" src="../Images/Socials/Instagram - Positive.svg" alt="">
+                </a>
+                <a href="https://twitter.com/codechefvit?lang=en" target="_blank">
+                    <img class="bigsocialActive" src="../Images/Socials/Twitter - Positive.svg" alt="">
+                </a>
+                <a href="https://www.youtube.com/c/CodeChefVIT" target="_blank">
+                    <img class="bigsocialActive" src="../Images/Socials/YouTube - Positive.svg" alt="">
+                </a> -->
             </div>
-
-        </nav>
+        </div>
+        <div class="heroArrowDiv">
+            <a class="heroArrow" href="#aboutUs"><img src="../Images/Group 22.png" alt=""></a>
+        </div>
     </section>
 
     <section id="aboutUs">
@@ -75,12 +89,13 @@
                 Our primary intention is to promote all - round development of students through interactive sessions, events, workshops and projects that help them percieve real-world problems. We strive hard to educate and guide our membersby equpping them with technical
                 and management skills, thereby enabling them to make significant contributions towards the community.
             </p>
-        </div>
 
-        <div class="scrolldown">
-            <span></span>
-            <span></span>
         </div>
+        <!-- <div class="scrolldown">
+            <span></span>
+            <span></span>
+        </div> -->
+
 
     </section>
     <section id="departments">
@@ -250,7 +265,7 @@
 
     <section id="sponsors">
         <div class="sponsorsDiv">
-            <h2 class="sponsorsText">Our Sponsors</h2>
+            <h2 class="sponsorsText">Sponsors</h2>
         </div>
         <div class="sponsorsIconsDiv">
             <img class="sponsorsIconsImg" src="../Images/Sponsors/azure.svg" alt="">
@@ -305,8 +320,7 @@
         </div>
     </section>
 
-    <!-- Scroll to top Button -->
-    <button class="scroll-to-top"><i class="fa fa-chevron-up"></button>
+
 
     <section class="footer">
         <div class="footerDiv">
@@ -340,8 +354,9 @@
             <div class="footerLineBreak"></div>
             <div class="footerBottom">
                 <div class="footerBottomCopyrightDiv">
-                    <img src="../Images/Socials/copyright.svg" alt="copyright svg">
-                    <span>Copyright 2020 | CodeChef-VIT | All rights reserved.</span>
+                    <!-- <img src="../Images/Socials/copyright.svg" alt="copyright svg"> -->
+
+                    <span>&copy; Copyright 2020 | CodeChef-VIT | All rights reserved.</span>
                 </div>
                 <div class="footerSocials">
                     <a href=" https://www.facebook.com/codechefvit/ "><img class="footerSocialImage" src="../Images/Socials/Facebook - Negative.svg " alt=" "></a>
@@ -355,6 +370,8 @@
             </div>
         </div>
     </section>
+    <!-- Scroll to top Button -->
+    <button class="scroll-to-top"><i class="fa fa-chevron-up"></button>
     <script src="Main.js"></script>
 </body>
 

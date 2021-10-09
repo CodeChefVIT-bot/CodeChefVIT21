@@ -1,15 +1,17 @@
-.contactUs {
+#contactUs {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #111;
+    margin-top: 10%;
+    border: 2px solid red;
+    margin-bottom: 10%;
 }
 
 .contactUsTitle {
     color: #fff;
     font-size: 48px;
     font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    margin-top: 13%;
+    font-weight: 800;
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -25,7 +27,7 @@
     position: absolute;
     bottom: 0;
     left: calc(50% - 25%);
-    top: 82px;
+    top: 4.5rem;
 }
 
 .contactUsDiv2 {
@@ -35,10 +37,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
 }
 
 .contactBox {
@@ -49,8 +49,8 @@
     background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
     border-radius: 32px;
     box-shadow: 0px 0px 8px rgba(10, 122, 224, 0.8);
-    height: 70vh;
-    width: 80%;
+    height: 80vh;
+    width: 70%;
 }
 
 .contactBox form {
@@ -63,14 +63,14 @@
 }
 
 .contact-form {
-    margin: 2% 0;
+    margin: 1% 0;
     width: 100%;
 }
 
 .contactBox input,
 .contactBox textarea {
-    width: 50%;
-    padding: 0.5rem;
+    width: 70%;
+    padding: 0.9rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-sizing: border-box;
     border-radius: 8px;
@@ -98,7 +98,7 @@
     text-align: left;
     color: #fff;
     opacity: 0.8;
-    margin-left: 25%;
+    margin-left: 15%;
     padding: 10px 0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -138,36 +138,32 @@
 
 @media only screen and (max-width:1030px) and (min-height:1350px) {
     .contactBox {
-        height: 40vh;
+        height: 60vh;
         width: 80%;
     }
 }
 
 @media only screen and (max-width:1030px) {
     .contactBox {
-        height: 80vh;
+        height: 70vh;
         width: 80%;
     }
 }
 
 @media only screen and (max-width:900px) {
     .contactBox {
-        height: 80vh;
+        height: 70vh;
     }
 }
 
 @media only screen and (max-width:770px) {
     .contactBox {
-        height: 60vh;
+        height: 70vh;
         width: 90%;
     }
 }
 
 @media only screen and (max-width:700px) {
-    .contactBox {
-        height: 60vh;
-        width: 90%;
-    }
     .contactBox label {
         font-size: 14px;
     }
@@ -187,10 +183,6 @@
     }
     .contact-form {
         margin-top: 2%;
-    }
-    .contactUsTitle {
-        margin-bottom: 0%;
-        margin-top: 6%;
     }
 }
 
@@ -295,29 +287,27 @@
 
 /* Responsive styles Title*/
 
+@media only screen and (max-width: 1000px) {
+    .contactUsTitle {
+        font-size: 40px;
+    }
+}
+
 @media only screen and (max-width:550px) {
     .contactUsTitle {
         font-size: 32px;
-    }
-    .contactUsTitle:after {
-        top: 64px;
     }
 }
 
 @media only screen and (max-width:360px) {
     .contactUsTitle {
-        font-size: 24px;
-    }
-    .contactUsTitle:after {
-        top: 44px;
+        font-size: 28px;
     }
 }
 
-@media only screen and (max-width:300px) {
-    .contactUsTitle {
-        font-size: 20px;
-    }
-    .contactUsTitle:after {
-        top: 42px;
+@media only screen and (max-width:414px) and (min-height:730px) {
+    .contactBox {
+        height: 50vh;
+        width: 95%;
     }
 }
