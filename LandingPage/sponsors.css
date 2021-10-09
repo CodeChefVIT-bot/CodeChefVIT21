@@ -3,7 +3,6 @@
     height: 100%;
     background-color: #111;
     margin-top: 10%;
-    border: 2px solid green;
 }
 
 .sponsorsDiv {
@@ -46,7 +45,7 @@
         transform: translateX(0px);
     }
     100% {
-        transform: translateX(-5100px);
+        transform: translateX(-4100px);
     }
 }
 
@@ -72,6 +71,9 @@
         width: 19%;
         margin: 0px 64px 0px 64px;
     }
+    .sponsorsIconsImg {
+        animation: translation 80s linear infinite;
+    }
 }
 
 @media only screen and (max-width:600px) {
@@ -91,6 +93,9 @@
         width: 20%;
         margin: 0 56px 0 56px;
     }
+    .sponsorsIconsImg {
+        animation: translation 100s linear infinite;
+    }
 }
 
 @media only screen and (max-width:400px) {
@@ -103,7 +108,7 @@
 }
 
 
-/* Responisve styles for title  */
+/* Responsive styles for title  */
 
 @media only screen and (max-width: 1000px) {
     .sponsorsText {
