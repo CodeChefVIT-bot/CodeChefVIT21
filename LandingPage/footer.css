@@ -74,7 +74,7 @@
         .footerBottomCopyrightDiv {
             width: 100%;
             margin-top: 16px;
-            margin-left: 4.5%;
+            margin-left: 8.5%;
             margin-bottom: 8px;
             display: flex;
         }
@@ -97,7 +97,7 @@
             display: flex;
             align-items: flex-start;
             justify-content: flex-end;
-            margin-top: 20px;
+            margin-top: 16px;
             margin-left: 0;
             margin-bottom: 8px;
             width: 100%;
@@ -175,7 +175,7 @@
             .footerBottomCopyrightDiv {
                 justify-content: center;
                 align-items: center;
-                margin-left: -40px;
+                margin-left: 1%;
             }
         }
         
@@ -226,7 +226,6 @@
             .footerBottomCopyrightDiv {
                 justify-content: center;
                 align-items: center;
-                margin-left: -28px;
             }
         }
         
@@ -287,10 +286,35 @@
             }
             .footerBottomCopyrightDiv {
                 margin-top: 16px;
-                margin-left: -16px;
             }
             .footerBottomCopyrightDiv span {
                 font-size: 11px;
+            }
+        }
+        
+        @media only screen and (max-width:370px) {
+            .footerLinksDiv a {
+                font-size: 8px;
+            }
+            .footerContentText {
+                font-size: 8px;
+            }
+            .footerLinksDiv li {
+                margin-right: 48px;
+                padding-bottom: 20px;
+            }
+            .SecondRow li {
+                margin-right: 38px;
+            }
+            li.footerLinkLast {
+                margin-right: 0px;
+                padding-right: 0;
+            }
+            .footerSocials a img {
+                width: 12px;
+            }
+            .footerBottomCopyrightDiv span {
+                font-size: 10px;
             }
         }
         
@@ -314,9 +338,6 @@
             }
             .footerSocials a img {
                 width: 12px;
-            }
-            .footerBottomCopyrightDiv {
-                margin-left: -12px;
             }
             .footerBottomCopyrightDiv span {
                 font-size: 10px;
