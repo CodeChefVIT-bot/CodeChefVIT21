@@ -477,10 +477,10 @@
         flex-direction: column;
         align-items: center;
     }
-    /* .showcaseCard:nth-child(3) {
+    .showcaseCard:nth-child(3) {
         display: block;
     }
-    .showcaseWrapper:nth-child(2) {
+    /* .showcaseWrapper:nth-child(2) {
         display: none;
     } */
     .showcaseCard {
