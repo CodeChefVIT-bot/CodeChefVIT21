@@ -3,6 +3,7 @@
         height: 100%;
         background-color: #111;
         /* background-color: black; */
+        margin-top: 10%;
     }
     
     .projectContainer {
@@ -21,7 +22,6 @@
         font-size: 52px;
         font-family: 'Inter', sans-serif;
         font-weight: 800;
-        margin-top: 5%;
         margin-bottom: 5%;
         margin-left: auto;
         margin-right: auto;
@@ -37,7 +37,7 @@
         position: absolute;
         bottom: 0;
         left: calc(50% - 25%);
-        top: 82px;
+        top: 1.5em;
     }
     /*Project Tabs*/
     
@@ -58,7 +58,6 @@
         width: 15%;
         height: 72px;
         position: absolute;
-        /* border: 2px solid green; */
         left: 0;
     }
     
@@ -67,7 +66,6 @@
         width: 15%;
         height: 72px;
         position: absolute;
-        /* border: 2px solid green; */
         right: 0;
     }
     
@@ -216,7 +214,7 @@
     /*View All Button*/
     
     .viewAllBtn {
-        margin: 30px auto;
+        margin-top: 1.5rem;
         text-decoration: none;
         /* padding: 16px 32px; */
         width: 160px;
@@ -241,35 +239,6 @@
         text-decoration: none;
         color: #fff;
     }
-    /* Responsive styles Title*/
-    
-    @media only screen and (max-width:550px) {
-        .projectTitleDiv h1 {
-            font-size: 32px;
-        }
-        .projectTitleDiv h1:after {
-            top: 64px;
-        }
-    }
-    
-    @media only screen and (max-width:360px) {
-        .projectTitleDiv h1 {
-            font-size: 24px;
-        }
-        .projectTitleDiv h1:after {
-            top: 44px;
-        }
-    }
-    
-    @media only screen and (max-width:300px) {
-        .projectTitleDiv h1 {
-            font-size: 20px;
-        }
-        .projectTitleDiv h1:after {
-            top: 42px;
-        }
-    }
-    /* Responsive Styles */
     
     @media only screen and (min-width:1350px) {
         .showcaseWrapper {
@@ -376,6 +345,11 @@
         .showcaseCard .info .btn {
             font-size: 10px;
         }
+        .viewAllBtn {
+            width: 140px;
+            height: 42px;
+            font-size: 18px;
+        }
     }
     
     @media only screen and (max-width:720px) {
@@ -469,6 +443,11 @@
         .projectTabs ul li {
             font-size: 18px;
         }
+        .viewAllBtn {
+            width: 130px;
+            height: 40px;
+            font-size: 16px;
+        }
     }
     
     @media only screen and (max-width:480px) {
@@ -527,5 +506,24 @@
         }
         .projectTabs ul li {
             padding: 12px 28px;
+        }
+    }
+    /* Responsive styles for title  */
+    
+    @media only screen and (max-width:1000px) {
+        .projectsTitle {
+            font-size: 40px !important;
+        }
+    }
+    
+    @media only screen and (max-width:550px) {
+        .projectsTitle {
+            font-size: 32px !important;
+        }
+    }
+    
+    @media only screen and (max-width:360px) {
+        .projectsTitle {
+            font-size: 28px !important;
         }
     }

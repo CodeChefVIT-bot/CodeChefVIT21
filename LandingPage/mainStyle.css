@@ -10,7 +10,7 @@
     
     body {
         background-color: #111;
-        font-family: 'inter', sans-serif;
+        font-family: 'Inter', sans-serif;
         overflow-x: hidden;
         overflow-y: scroll;
     }
@@ -37,95 +37,116 @@
     #home {
         overflow: hidden;
         width: 100%;
-        height: 100vh;
+        height: 100%;
     }
     
     #home::before {
         content: "";
-        background: url('/Images/Heroimage.png');
+        background: url('/Images/HeroImage.jpg');
+        opacity: 0.4;
         background-size: cover;
         position: absolute;
         background-position: center;
-        top: 0px;
-        left: 0px;
         width: 100%;
         height: 100%;
-        z-index: -1;
+        z-index: -15;
+    }
+    
+    .heroImage {
+        background-position: center;
+    }
+    
+    .heroDiv {
+        /* position: relative; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        flex-direction: row-reverse;
+        margin-left: 3%;
+        margin-top: 9em;
+        z-index: 30;
     }
     
     .hero {
         display: flex;
         flex-direction: column;
-        margin-left: 10%;
-        margin-top: 264px;
         margin-right: 0;
         width: 100%;
+        margin-left: 8%;
     }
     
     p.Sub-title {
-        color: rgba(255, 255, 255, 0.603);
+        color: rgba(255, 255, 255, 0.600);
         display: block;
-        font-size: 24px;
+        font-size: 1.5rem;
         margin: 0;
-        padding-bottom: 32px;
-        font-weight: 600;
+        font-weight: 500;
+        padding-bottom: 1.3em;
     }
     
     p.Hero-title1 {
         color: white;
-        font-size: 72px;
+        font-size: 4.5rem;
         display: block;
         margin: 0;
         font-weight: 900;
-        padding-top: 8px;
     }
     
     p.Hero-title2 {
         color: white;
-        font-size: 72px;
+        font-size: 4.5rem;
         margin: 0;
         display: block;
         font-weight: 900;
     }
     
     span {
-        margin-left: 4px;
+        margin-left: 0.3em;
         color: #1579D6;
     }
     /*Floating Socials*/
     
     .socialsFloat {
-        position: absolute;
-        top: 365px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        margin-top: 4em;
     }
     
     .socialsFloat a {
-        width: 36px;
-        height: 36px;
-        background: #1579D6;
-        border-radius: 50%;
-        /* border: 1px solid #1579D6; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 14px;
         transition: all 0.2s ease-in;
     }
     
-    .socialsFloat a:hover {
-        width: 46px;
-        height: 46px;
+    .bigsocial {
+        width: 20px;
+        margin-bottom: 1em;
     }
     
-    .bigsocial {
-        width: 23px;
+    .bigsocial path {
+        fill: rgba(255, 255, 255, 0.8);
     }
+    
+    .bigsocial:hover path {
+        fill: rgb(19, 129, 230);
+    }
+    
+    .LastSocial {
+        margin-bottom: 0px;
+    }
+    /* .bigsocialActive {
+        display: none;
+        width: 20px;
+    } */
     
     .heroArrowDiv {
         display: flex;
         justify-content: center;
-        margin-top: 190px;
+        margin-top: 10em;
         align-items: center;
+        margin-bottom: 1em;
     }
     
     .heroArrow {
@@ -148,7 +169,6 @@
         right: 30px;
         border-radius: 50%;
         border: 2px solid rgba(19, 129, 230, 0.8);
-        ;
         width: 50px;
         height: 50px;
         font-size: 24px;
@@ -157,131 +177,68 @@
         opacity: 90%;
         cursor: pointer;
         outline: none;
-        transition: all 0.3s ease-in-out
+        transition: all 0.3s ease-in-out;
+        z-index: 100;
     }
     
     .scroll-to-top:hover {
         font-size: 30px;
     }
-    
-    .fa-chevron-up:before {
-        content: "\f077";
-    }
     /* Responsive styles */
     
-    @media only screen and (max-width:1150px) {
-        .heroArrowDiv {
-            margin-top: 152px;
+    @media only screen and (min-width:1140px) {}
+    
+    @media only screen and (max-width:1175px) {
+        p.Hero-title1 {
+            font-size: 64px;
         }
+        p.Hero-title2 {
+            font-size: 64px;
+        }
+    }
+    
+    @media only screen and (max-width:1150px) {
         p.Hero-title1 {
             font-size: 56px;
         }
         p.Hero-title2 {
             font-size: 56px;
-        }
-        .socialsFloat a {
-            margin-bottom: 12px;
-        }
-        .socialsFloat {
-            position: absolute;
-            top: 348px;
         }
     }
     
     @media only screen and (max-width:1045px) {
-        .heroArrowDiv {
-            margin-top: 180px;
-        }
         p.Hero-title1 {
-            font-size: 52px;
+            font-size: 54px;
         }
         p.Hero-title2 {
-            font-size: 52px;
+            font-size: 54px;
         }
         p.Sub-title {
             font-size: 20px;
-            padding-bottom: 24px;
-        }
-        .socialsFloat a {
-            margin-bottom: 12px;
-        }
-        .socialsFloat {
-            position: absolute;
-            top: 336px;
-        }
-        .socialsFloat a {
-            width: 32px;
-            height: 32px;
         }
         .bigsocial {
             width: 18px;
         }
-        .socialsFloat a:hover {
-            width: 40px;
-            height: 40px;
-        }
     }
     
     @media only screen and (max-width:980px) {
-        .heroArrowDiv {
-            margin-top: 200px;
-        }
-        div.hero {
-            display: flex;
-            flex-direction: column;
-            margin-left: 8%;
-            margin-top: 264px;
-        }
         p.Hero-title1 {
-            font-size: 44px;
+            font-size: 50px;
         }
         p.Hero-title2 {
-            font-size: 44px;
+            font-size: 50px;
         }
         p.Sub-title {
             font-size: 18px;
-            padding-bottom: 20px;
-        }
-        .socialsFloat {
-            position: absolute;
-            top: 322px;
         }
     }
     
-    @media only screen and (max-width:840px) {
-        .heroArrowDiv {
-            margin-top: 195px;
+    @media only screen and (max-width:835px) {
+        p.Hero-title1 {
+            font-size: 48px;
         }
-        .socialsFloat {
-            top: 332px;
-        }
-        .socialsFloat a {
-            width: 24px;
-            height: 24px;
-        }
-        .socialsFloat a:hover {
-            width: 34px;
-            height: 34px;
-        }
-        .bigsocial {
-            width: 13px;
-        }
-    }
-    
-    @media only screen and (max-width:755px) {
-        .socialsFloat {
-            float: right;
-            position: relative;
-            top: -140px;
-            margin-left: 48px;
-        }
-        .socialsFloat a {
-            width: 28px;
-            height: 28px;
-        }
-        .socialsFloat a:hover {
-            width: 36px;
-            height: 36px;
+        p.Hero-title2 {
+            font-size: 48px;
         }
         .bigsocial {
             width: 16px;
@@ -289,45 +246,51 @@
         p.Sub-title {
             font-size: 16px;
         }
-        .heroArrowDiv {
-            margin-top: 150px;
+    }
+    
+    @media only screen and (max-width:790px) {
+        p.Hero-title1 {
+            font-size: 44px;
+        }
+        p.Hero-title2 {
+            font-size: 44px;
+        }
+        p.Sub-title {
+            font-size: 16px;
         }
     }
     
-    @media only screen and (max-width:720px) {
-        div.socialsFloat {
-            display: none;
+    @media only screen and (max-width:730px) {
+        .socialsFloat {
+            flex-direction: row;
+            width: 20%;
+            margin-top: 8%;
+            margin-right: 6%;
+            align-self: flex-end;
+        }
+        .heroArrowDiv {
+            margin-top: 7em;
+        }
+        .bigsocial {
+            margin-bottom: 0em;
+        }
+        .heroDiv {
+            flex-direction: column;
         }
         .hero {
             margin-left: 0%;
         }
     }
     
-    @media only screen and (max-width:690px) {
-        div.hero {
-            margin-top: 232px;
+    @media only screen and (max-width:655px) {
+        p.Hero-title1 {
+            font-size: 40px;
         }
-        .heroArrowDiv {
-            margin-top: 190px;
+        p.Hero-title2 {
+            font-size: 40px;
         }
-    }
-    
-    @media only screen and (max-width:680px) {
-        div.socialsFloat {
-            display: none;
-        }
-        div.hero {
-            margin-left: 0;
-            padding-left: 0;
-        }
-        .heroArrowDiv {
-            margin-top: 180px;
-        }
-    }
-    
-    @media only screen and (max-width:615px) {
-        .heroArrowDiv {
-            margin-top: 156px;
+        .heroArrowDiv img {
+            width: 90%;
         }
     }
     
@@ -339,44 +302,21 @@
             font-size: 36px;
         }
         .scroll-to-top {
-            right: 10%;
+            right: 3%;
             width: 40px;
             height: 40px;
         }
-        div.hero {
-            margin-left: 0%;
-            width: 80vh;
-            margin-left: -80px;
-        }
-    }
-    
-    @media only screen and (max-width:515px) {
-        p.Sub-title {
-            font-size: 14px;
-        }
-        div.hero {
-            margin-left: 0%;
-            width: 65vh;
-            margin-left: -80px;
-        }
-    }
-    
-    @media only screen and (max-width:495px) {
-        div.hero {
-            margin-left: 0%;
-            width: 57vh;
-            margin-left: -80px;
-        }
-    }
-    
-    @media only screen and (max-width:465px) {
-        #home::before {
+        #hero {
             height: 90%;
         }
-        div.hero {
-            margin-left: 0%;
-            width: 60vh;
-            margin-left: -80px;
+        #hero::before {
+            height: 80%;
+        }
+    }
+    
+    @media only screen and (max-width:540px) {
+        p.Sub-title {
+            font-size: 14px;
         }
         p.Hero-title1 {
             font-size: 32px;
@@ -384,33 +324,38 @@
         p.Hero-title2 {
             font-size: 32px;
         }
-        .heroArrowDiv a img {
-            width: 80%;
+        .socialsFloat {
+            width: 25%;
+        }
+    }
+    
+    @media only screen and (max-width:480px) {
+        p.Hero-title1 {
+            font-size: 30px;
+        }
+        p.Hero-title2 {
+            font-size: 30px;
         }
     }
     
     @media only screen and (max-width:455px) {
-        div.hero {
-            width: 50vh;
-        }
         p.Hero-title1 {
-            font-size: 32px;
+            font-size: 30px;
         }
         p.Hero-title2 {
-            font-size: 32px;
+            font-size: 30px;
         }
-        .heroArrowDiv a img {
+        .bigsocial {
+            width: 16px;
+        }
+        .heroArrowDiv img {
             width: 80%;
         }
     }
     
-    @media only screen and (max-width:390px) {
-        div.hero {
-            width: 52vh;
-        }
+    @media only screen and (max-width:405px) {
         p.Sub-title {
             font-size: 10px;
-            padding-bottom: 4px
         }
         p.Hero-title1 {
             font-size: 28px
@@ -418,27 +363,24 @@
         p.Hero-title2 {
             font-size: 28px;
         }
-    }
-    
-    @media only screen and (max-width:375px) {
-        .heroArrowDiv {
-            margin-top: 100px;
+        .bigsocial {
+            width: 14px;
+        }
+        .socialsFloat {
+            width: 25%;
         }
     }
     
     @media only screen and (max-width:330px) {
-        div.hero {
-            width: 40vh;
-        }
         p.Sub-title {
-            font-size: 10px;
+            font-size: 9px;
+        }
+        .socialsFloat {
+            width: 30%;
         }
     }
     
     @media only screen and (max-width:310px) {
-        div.hero {
-            width: 40vh;
-        }
         p.Sub-title {
             font-size: 10px;
         }
@@ -450,31 +392,3 @@
         }
     }
     /* Responiveness for particular devices */
-    
-    @media only screen and (max-width:320px) and (min-height:560px) {
-        .heroArrowDiv {
-            margin-top: 140px;
-        }
-    }
-    
-    @media only screen and (max-width:360px) and (min-height:640px) {
-        .heroArrowDiv {
-            margin-top: 130px;
-        }
-    }
-    
-    @media only screen and (max-width:320px) and (min-height:568px) {
-        .heroArrowDiv {
-            margin-top: 60px;
-        }
-    }
-    
-    @media only screen and (max-width:375px) and (min-height:812px) {
-        #home::before {
-            height: 70%;
-            ;
-        }
-        div.hero {
-            width: 45vh;
-        }
-    }
