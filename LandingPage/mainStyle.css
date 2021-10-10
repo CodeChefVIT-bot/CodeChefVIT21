@@ -49,6 +49,7 @@
         background-position: center;
         width: 100%;
         height: 100%;
+        z-index: -15;
     }
     
     .heroImage {
@@ -56,15 +57,15 @@
     }
     
     .heroDiv {
-        position: relative;
+        /* position: relative; */
         display: flex;
-        justify-content: conter;
+        justify-content: center;
         align-items: center;
         height: 100%;
         flex-direction: row-reverse;
         margin-left: 3%;
         margin-top: 9em;
-        z-index: 10;
+        z-index: 30;
     }
     
     .hero {
