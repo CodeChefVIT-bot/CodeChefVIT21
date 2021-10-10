@@ -1,6 +1,6 @@
 .navbar {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     position: sticky;
     top: 0px;
     left: 0px;
@@ -8,8 +8,6 @@
     height: 125px;
     padding: 1% 2% 1% 8%;
     box-sizing: border-box;
-    transition: all 0.3s ease-in-out;
-    z-index: 100;
 }
 
 #logo {
@@ -55,85 +53,9 @@
 }
 
 .barsNavLi {
+    display: none;
     margin-top: 30%;
     padding-right: 1.5em;
-    display: none;
-}
-
-.navbarHamDiv {
-    /* border: 2px solid red; */
-    position: fixed;
-    right: 0;
-    min-width: 280px;
-    padding: 1em 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px 0px 0px 12px;
-    transform: translateX(100%);
-    transition: transform 0.3s ease;
-    z-index: 20;
-}
-
-.navbarHamDiv.active {
-    transform: translateX(0);
-    transition: transform 0.3s ease;
-}
-
-.navbarHamDiv::before {
-    content: "";
-    position: absolute;
-    border-radius: 12px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #000;
-    z-index: -10;
-    opacity: 0.9;
-}
-
-.navbarHamDiv .home-nav-items {
-    list-style: none;
-    padding: 1em 0;
-    margin: 1.25rem 0;
-    /* border: 2px solid green; */
-}
-
-.home-nav-items:hover {
-    background-color: rgba(38, 38, 38, 0.7);
-    filter: blur(20%);
-    /* border: 1px solid rgba(21, 121, 214, 0.6); */
-    border-radius: 8px;
-}
-
-.navbarHamDiv .home-nav-items a {
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-.navbarHam p {
-    color: rgba(255, 255, 255, 0.9);
-    padding: 1.5em;
-}
-
-.navHomeList {
-    width: 100%;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.nav-cross {
-    position: absolute;
-    top: 0;
-    right: 5px;
-    display: block;
-}
-
-.nav-cross svg {
-    margin-top: 1em;
 }
 
 
@@ -181,17 +103,12 @@
     }
 }
 
-.none {
-    display: none;
-}
-
-
-/* @media only screen and (max-width:340px) {
+@media only screen and (max-width:340px) {
     #logo img {
         width: 65%;
     }
     .barsNav {
-        width: 38px;s
+        width: 38px;
         height: 4px;
     }
-} */
+}

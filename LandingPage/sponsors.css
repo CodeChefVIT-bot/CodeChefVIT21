@@ -1,22 +1,25 @@
 #sponsors {
     width: 100%;
-    height: 80vh;
+    height: 100%;
     background-color: #111;
+    margin-top: 10%;
 }
+
 .sponsorsDiv {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .sponsorsText {
     color: #fff;
     font-size: 48px;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    margin-top: 13%;
-    margin-bottom: 5%;
+    margin-bottom: 1.5em;
     position: relative;
 }
+
 .sponsorsText:after {
     content: '';
     background-color: #1579D6;
@@ -26,24 +29,26 @@
     width: 50%;
     bottom: 0;
     left: calc(50% - 25%);
-    top: 82px;
+    top: 1.5em;
 }
+
 .sponsorsIconsDiv {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 5%;
     overflow-x: hidden;
     overflow-y: hidden;
+    margin-right: 1em;
 }
+
 @keyframes translation {
     0% {
         transform: translateX(0px);
     }
     100% {
-        transform: translateX(-5100px);
+        transform: translateX(-4100px);
     }
 }
+
 .sponsorsIconsImg {
     width: 15%;
     display: inline-block;
@@ -51,80 +56,74 @@
     animation: translation 50s linear infinite;
 }
 
-@media only screen and (max-width:1440px) {
-    #sponsors{
-        margin-bottom: -10%;
-    }
-}
-@media only screen and (max-width:1200px) {
-    #sponsors{
-        margin-bottom: -15%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .sponsorsIconsDiv {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-}
-@media only screen and (max-width:1000px) {
-    #sponsors{
-        margin-bottom: -18%;
-    }
-    .sponsorsIconsDiv {
-        margin-top: 10%;
-    }
-}
-@media only screen and (max-width:800px) {
-    #sponsors{
-        margin-bottom: -22%;
-    }
-    .sponsorsIconsDiv {
-        margin-top: 15%;
-    }
 
+/* Responsive styles  */
+
+@media only screen and (max-width:1000px) {
+    .sponsorsIconsImg {
+        width: 17%;
+        margin: 0px 80px 0px 80px;
+    }
 }
-@media only screen and (max-width:650px) {
-    #sponsors{
-        margin-bottom: -30%;
+
+@media only screen and (max-width:800px) {
+    .sponsorsIconsImg {
+        width: 19%;
+        margin: 0px 64px 0px 64px;
+    }
+    .sponsorsIconsImg {
+        animation: translation 80s linear infinite;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .sponsorsIconsImg {
+        width: 20%;
     }
     .sponsorsIconsDiv {
-        margin-top: 20%;
+        margin-right: 0.8em;
     }
 }
-@media only screen and (max-width:560px) {
-    #sponsors{
-        margin-bottom: -35%;
-    }
+
+@media only screen and (max-width:500px) {
     .sponsorsIconsDiv {
-        margin-top: 25%;
+        margin-right: 0em;
+    }
+    .sponsorsIconsImg {
+        width: 20%;
+        margin: 0 56px 0 56px;
+    }
+    .sponsorsIconsImg {
+        animation: translation 100s linear infinite;
     }
 }
-@media only screen and (max-width:470px) {
-    #sponsors{
-        margin-bottom: -45%;
-    }
-    .sponsorsIconsDiv {
-        margin-top: 30%;
-    }
-    .sponsorsText{
-        font-size: 40px;
-    }
-}
+
 @media only screen and (max-width:400px) {
-    #sponsors{
-        margin-bottom: -45%;
+    .sponsorsIconsImg {
+        width: 22%;
     }
     .sponsorsIconsDiv {
-        margin-top: 22%;
+        margin-right: 0em;
     }
-    .sponsorsText{
+}
+
+
+/* Responsive styles for title  */
+
+@media only screen and (max-width: 1000px) {
+    .sponsorsText {
         font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .sponsorsText {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .sponsorsText {
+        font-size: 28px;
     }
 }

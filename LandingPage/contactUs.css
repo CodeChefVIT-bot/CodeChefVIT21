@@ -1,19 +1,30 @@
-.contactUs {
+#contactUs {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #111;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
+
+.contactUsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6%;
+}
+
 .contactUsTitle {
     color: #fff;
     font-size: 48px;
     font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    margin-top: 13%;
-    margin-bottom: 5%;
+    font-weight: 800;
     margin-left: auto;
     margin-right: auto;
     position: relative;
 }
+
 .contactUsTitle:after {
     content: '';
     height: 4px;
@@ -23,8 +34,9 @@
     position: absolute;
     bottom: 0;
     left: calc(50% - 25%);
-    top: 82px;
+    top: 1.5em;
 }
+
 .contactUsDiv2 {
     display: flex;
     flex-wrap: wrap;
@@ -32,11 +44,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
+    margin: 0 auto;
 }
+
 .contactBox {
     /* background-color: cyan; */
     display: flex;
@@ -45,24 +55,28 @@
     background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
     border-radius: 32px;
     box-shadow: 0px 0px 8px rgba(10, 122, 224, 0.8);
-    height: 70vh;
-    width: 80%;
+    height: 100%;
+    width: 55%;
 }
+
 .contactBox form {
     width: 100%;
 }
+
 .contactFormDiv {
     width: 100%;
     margin: auto;
 }
+
 .contact-form {
-    margin: 2% 0;
+    margin: 6% 0;
     width: 100%;
 }
+
 .contactBox input,
 .contactBox textarea {
-    width: 50%;
-    padding: 0.5rem;
+    width: 70%;
+    padding: 0.9rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-sizing: border-box;
     border-radius: 8px;
@@ -73,36 +87,46 @@
     border-radius: 5px;
     outline: none;
 }
+
 .contactBox input:focus,
 .contactBox textarea:focus {
     border: 1px solid rgba(10, 122, 224, 0.8);
     border-width: 0px 0px 2px 0px;
     background-color: #272727;
 }
+
 .contactBox textarea {
     resize: none;
 }
+
 .contactBox label {
     display: block;
     text-align: left;
     color: #fff;
     opacity: 0.8;
-    margin-left: 25%;
+    margin-left: 15%;
     padding: 10px 0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
 }
+
 .contactBox input[type="email"] {
-    font-size: 16px;
+    font-size: 18px;
 }
+
 .contactBox textarea {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Inter', sans-serif;
 }
+
+.Message {
+    margin-bottom: 0px;
+}
+
 .sendBtn {
-    margin: 30px auto;
+    margin: 1em auto;
     text-decoration: none;
     width: 160px;
     height: 48px;
@@ -116,75 +140,123 @@
     border: none;
     outline: none;
 }
+
 .sendBtn:hover {
     background-color: #0649ad;
     font-size: 18px;
 }
 
-@media only screen and (max-width:900px) {
-    .contactBox{
-        height: 60vh;
+
+/* Responsive styles Title*/
+
+@media only screen and (max-width: 1000px) {
+    .contactUsTitle {
+        font-size: 40px;
     }
 }
-@media only screen and (max-width:700px) {
-    .contactBox{
-        height: 60vh;
-        width: 90%;
+
+@media only screen and (max-width:550px) {
+    .contactUsTitle {
+        font-size: 32px;
     }
-    .contactBox label{
-        font-size: 14px;
+}
+
+@media only screen and (max-width:360px) {
+    .contactUsTitle {
+        font-size: 28px;
     }
-    .contactBox input[type="email"] {
-        font-size: 14px;
+}
+
+
+/* Responisve styles */
+
+@media only screen and (max-width:1090px) {
+    .contactBox {
+        width: 60%;
     }
-    .contactBox textarea {
-        font-size: 14px;
+}
+
+@media only screen and (max-width:970px) {
+    .contactBox {
+        width: 65%;
     }
-    .contact-form{
-        margin-top: 2%;
+}
+
+@media only screen and (max-width:840px) {
+    .contactBox {
+        width: 70%;
     }
-    .sendBtn{
-        width: 120px;
-        height: 36px;
+}
+
+@media only screen and (max-width:800px) {
+    .sendBtn {
+        width: 140px;
+        height: 42px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:740px) {
+    .contactBox {
+        width: 80%;
+    }
+    .contactUsDiv {
+        margin-bottom: 8%;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    .contactBox {
+        width: 85%;
+    }
+    .contactBox label {
         font-size: 16px;
     }
-    .contactUsDiv2{
-        margin-top: 10%;
-    }
-}
-@media only screen and (max-width:570px) {
-    .contactBox{
-        height: 52vh;
-        width: 90%;
-    }
-    .contact-form{
-        margin-top: 2%;
-    }
-    .contactUsDiv2{
-        margin-top: 13%;
-    }
-
-}
-@media only screen and (max-width:470px) {
-    .contactBox{
-        height: 60vh;
-        width: 90%;
-    }
-    .contactBox label{
-        font-size: 12px;
-    }
     .contactBox input[type="email"] {
-        font-size: 12px;
+        font-size: 16px;
     }
     .contactBox textarea {
-        font-size: 12px;
+        font-size: 16px;
     }
-    .sendBtn{
-        width: 100px;
-        height: 30px;
+    .Message {
+        margin: 0% auto;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .sendBtn {
+        width: 130px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .contactBox {
+        width: 90%;
+    }
+    .contactBox label {
         font-size: 14px;
     }
-    .contactUsTitle{
-        font-size: 40px;
+    .contactBox input[type="email"] {
+        font-size: 14px;
+    }
+    .contactBox textarea {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .contactBox label {
+        font-size: 12px;
+    }
+    .contactBox {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .contactUsDiv {
+        margin-bottom: 10%;
     }
 }
