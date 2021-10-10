@@ -64,7 +64,7 @@
     /* border: 2px solid red; */
     position: fixed;
     right: 0;
-    min-width: 280px;
+    min-width: 150px;
     padding: 1em 2em;
     display: flex;
     justify-content: center;
@@ -83,33 +83,36 @@
 .navbarHamDiv::before {
     content: "";
     position: absolute;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #000;
+    /* background-color: #000; */
+    background-image: url('/Images/navMobile-background.svg');
     z-index: -10;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 .navbarHamDiv .home-nav-items {
     list-style: none;
-    padding: 1em 0;
+    padding: 1em 1em;
     margin: 1.25rem 0;
     /* border: 2px solid green; */
 }
 
 .home-nav-items:hover {
-    background-color: rgba(38, 38, 38, 0.7);
-    filter: blur(20%);
-    /* border: 1px solid rgba(21, 121, 214, 0.6); */
+    background-color: rgba(21, 121, 214, 1);
+    /* background-color: rgba(32, 86, 137); */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* background-color: #2266A5; */
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
 }
 
 .navbarHamDiv .home-nav-items a {
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 500;
     text-decoration: none;
 }
@@ -127,9 +130,13 @@
 
 .nav-cross {
     position: absolute;
-    top: 0;
-    right: 5px;
+    top: 16px;
+    right: 16px;
     display: block;
+}
+
+.nav-cross img {
+    width: 24px;
 }
 
 .nav-cross svg {
