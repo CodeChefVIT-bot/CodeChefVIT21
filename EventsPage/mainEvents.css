@@ -27,16 +27,6 @@ body {
     background-color:rgba(19, 129, 230, 0.8); ;
 }
 
-
-/* Home Section */
-
-#EventHome{
-    overflow: hidden;
-    background-color: #111;
-    width: 100%;
-    height: 100vh;
-}
-
 /* Scroll to top*/
 
 .scroll-to-top{
@@ -59,14 +49,112 @@ body {
     font-size: 30px;
 }
 
+/*Arrow*/
+.arrow {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 2.1px;
+    margin-left: 2px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* Home Section */
+
+#EventHome{
+    overflow: hidden;
+    background: linear-gradient(155.27deg, #0083D8 -326.75%, #111111 74.45%);
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+
+.EventHeroDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: 3%;
+    margin-top: 15%;
+    z-index: 30;
+}
+.EventHero{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.EventHero1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.EventText{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    width: 40%;
+    margin-right: 3%;
+    margin-left: 25%;
+}
+.EventAbout{
+    font-size: 24px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.ViewEventsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.viewAllBtn1 {
+    margin-top: 1.5rem;
+    text-decoration: none;
+    width: 160px;
+    height: 48px;
+    background: #1579D6;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    outline: none;
+    border: none;
+}
+
+.viewAllBtn:hover {
+    background-color: #0649ad;
+}
+
+.viewAllBtn a {
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff;
+}
+
 /* Event List Section */
 
 #Eventlist{
     width: 100%;
     height: 100%;
-    background-color: black;
-    margin-top: 10%;
+    background-color: #111;
+    margin-top: 8%;
+    /* border: 2px solid green; */
 }
+
 .year{
     margin-top: 5%;
 }

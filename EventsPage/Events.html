@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="../LandingPage/mainStyle.css">
     <link rel="stylesheet" href="./mainEvents.css">
     <link rel="stylesheet" href="../LandingPage/devices.css">
-    <link rel="stylesheet" href="../LandingPage/projects.css">
+    <!-- <link rel="stylesheet" href="../LandingPage/projects.css"> -->
+    <link rel="stylesheet" href="./EventsList.css">
     <link rel="stylesheet" href="../LandingPage/aboutUs.css">
     <link rel="stylesheet" href="../LandingPage/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -41,7 +42,7 @@
                 </ul>
             </div>
         </nav>
-        <div class="heroDiv">
+        <div class="EventHeroDiv">
             <div class="navbarHamDiv">
                 <ul class="navHomeList">
                     <li class="nav-cross">
@@ -57,11 +58,18 @@
                     <li class="home-nav-items"><a href="#contactUs">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="hero">
-                <p class="Sub-title">Welcome</p>
-                <p class="Hero-title1">OUR EVENTS</p>
-                <!-- <p class="Hero-title2">in<span id="app"></span></p> -->
+            <div class="hero EventHero">
+                <div class="EventHero1">
+                    <p class="Hero-title1">Our <span id="app">Events</span></p>
+                    <div class="ViewEventsDiv">
+                        <button class="viewAllBtn"><a class="btn" href="#Eventlist">View Events <i class="arrow down"></i></a></button>
+                    </div>
+                </div>
+                <div class="EventText">
+                    <p class="EventAbout">Events and hackathons are the two cornerstones that make CodeChef-VIT one of the campus' most deemed and reputed chapters. Our teamwork, dedication and determination is what propels and inspires our events to take greater strides and achieve greater heights.</p>
+                </div>
             </div>
+            
         </div>
     </section>
 
@@ -235,7 +243,7 @@
                     </div>
 
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/bookmark.png" alt="">
+                        <img src="../Images/Events/game19.jpeg" alt="">
                         <div class="info">
                             <h1>Game Dev</h1>
                             <p>This two day workshop gave its attendees hands on experience on how to design and develop their very own elementary games using unity and blender.The participants were first taught 3-D modelling and then the use of these 3-D models to build real life games and applications</p>
