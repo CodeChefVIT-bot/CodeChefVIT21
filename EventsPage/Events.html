@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeChef-VIT || Events</title>
-    <link rel="stylesheet" href="./eventsNav.css">
+    <!-- <link rel="stylesheet" href="./eventsNav.css"> -->
+    <link rel="stylesheet" href="../LandingPage/Navbar.css">
+    <link rel="stylesheet" href="../LandingPage/mainStyle.css">
     <link rel="stylesheet" href="./mainEvents.css">
+    <link rel="stylesheet" href="../LandingPage/devices.css">
     <link rel="stylesheet" href="../LandingPage/projects.css">
     <link rel="stylesheet" href="../LandingPage/aboutUs.css">
     <link rel="stylesheet" href="../LandingPage/footer.css">
@@ -14,36 +17,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous"> -->
 </head>
 <body>
     <section id="EventHome">
-        <div class="container eventHome">
-            <nav class="navbar container">
-                <div id="logo">
-                    <img src="../Images/codechef_logo_1.svg" alt="Logo">
-                </div>
-                <div class="navbarUl">
-                    <ul>
-                        <li class="items"><a href="#home">Home</a></li>
-                        <li class="items"><a href="#">Events</a></li>
-                        <li class="items"><a href="#">Webinars</a></li>
-                        <li class="items"><a href="#">Projects</a></li>
-                        <li class="items"><a href="#">Team</a></li>
-                        <li class="items"><a href="#contactUs">Contact Us</a></li>
-                        <li class="barsNavLi">
-                            <div class="barsNav"></div>
-                            <div class="barsNav"></div>
-                            <div class="barsNav"></div>
-                        </li>
-                    </ul>
-                </div>
-            </nav> 
+        <nav class="navbar">
+            <div id="logo">
+                <img src="../Images/codechef_logo_1.svg" alt="Logo">
+            </div>
+            <div class="navbarUl">
+                <ul>
+                    <li class="items"><a href="#home">Home</a></li>
+                    <li class="items"><a href="#">Events</a></li>
+                    <li class="items"><a href="#">Webinars</a></li>
+                    <li class="items"><a href="#">Projects</a></li>
+                    <li class="items"><a href="#">Team</a></li>
+                    <li class="items"><a href="#contactUs">Contact Us</a></li>
+                    <li class="barsNavLi">
+                        <div class="barsNav"></div>
+                        <div class="barsNav"></div>
+                        <div class="barsNav"></div>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="heroDiv">
+            <div class="navbarHamDiv">
+                <ul class="navHomeList">
+                    <li class="nav-cross">
+                        <svg width="40" height="40" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.348 14.8489C14.123 15.0739 13.8178 15.2003 13.4995 15.2003C13.1813 15.2003 12.8761 15.0739 12.651 14.8489L10 11.8189L7.34901 14.8479C7.23792 14.9608 7.10556 15.0506 6.95959 15.1121C6.81361 15.1736 6.6569 15.2056 6.49849 15.2063C6.34008 15.2069 6.18311 15.1762 6.03664 15.1159C5.89017 15.0555 5.75709 14.9668 5.64507 14.8548C5.53306 14.7428 5.44434 14.6097 5.38401 14.4632C5.32369 14.3168 5.29297 14.1598 5.29361 14.0014C5.29426 13.843 5.32626 13.6863 5.38777 13.5403C5.44929 13.3943 5.53909 13.262 5.65201 13.1509L8.41001 10.0009L5.65101 6.84887C5.53809 6.73777 5.44829 6.60542 5.38677 6.45944C5.32526 6.31346 5.29326 6.15675 5.29261 5.99834C5.29197 5.83994 5.32269 5.68297 5.38301 5.5365C5.44334 5.39002 5.53206 5.25694 5.64407 5.14493C5.75609 5.03292 5.88917 4.94419 6.03564 4.88387C6.18211 4.82355 6.33908 4.79282 6.49749 4.79347C6.6559 4.79411 6.81261 4.82611 6.95859 4.88763C7.10456 4.94914 7.23692 5.03895 7.34801 5.15187L10 8.18287L12.651 5.15187C12.7621 5.03895 12.8945 4.94914 13.0404 4.88763C13.1864 4.82611 13.3431 4.79411 13.5015 4.79347C13.6599 4.79282 13.8169 4.82355 13.9634 4.88387C14.1099 4.94419 14.2429 5.03292 14.355 5.14493C14.467 5.25694 14.5557 5.39002 14.616 5.5365C14.6763 5.68297 14.7071 5.83994 14.7064 5.99834C14.7058 6.15675 14.6738 6.31346 14.6123 6.45944C14.5507 6.60542 14.4609 6.73777 14.348 6.84887L11.59 10.0009L14.348 13.1509C14.4596 13.2623 14.5481 13.3947 14.6085 13.5403C14.6689 13.686 14.7 13.8422 14.7 13.9999C14.7 14.1576 14.6689 14.3137 14.6085 14.4594C14.5481 14.6051 14.4596 14.7374 14.348 14.8489V14.8489Z" fill="white"/>
+                        </svg>
+                    </li>
+                    <li class="home-nav-items"><a href="#home">Home</a></li>
+                    <li class="home-nav-items"><a href="#">Events</a></li>
+                    <li class="home-nav-items"><a href="#">Webinars</a></li>
+                    <li class="home-nav-items"><a href="#">Projects</a></li>
+                    <li class="home-nav-items"><a href="#">Team</a></li>
+                    <li class="home-nav-items"><a href="#contactUs">Contact Us</a></li>
+                </ul>
+            </div>
             <div class="hero">
-                <p class="Sub-title">Codechef-VIT believes in the notion of learning by doing</p>
-                <p class="Hero-title1">At Codechef-VIT we believe </p> <br>
-                <p class="Hero-title2">in<span id="app"></span></p>
-            </div>  
+                <p class="Sub-title">Welcome</p>
+                <p class="Hero-title1">OUR EVENTS</p>
+                <!-- <p class="Hero-title2">in<span id="app"></span></p> -->
+            </div>
         </div>
     </section>
 
@@ -51,17 +69,8 @@
 
         <div class="projectContainer">
             <div class="projectTitleDiv" data-aos="fade-up">
-                <h1>2021</h1>
+                <h1 class="projectsTitle year">2021</h1>
             </div>
-            <!-- <div class="projectTabs">
-                <div class="blackBox1"></div>
-                <div class="blackBox2"></div>
-                <ul>
-                    <li class="tab" id="all">All</li>
-                    <li class="tab" id="web">Web</li>
-                    <li class="tab Apps" id="app">Apps</li>
-                </ul>
-            </div> -->
             <div class="projectShowcase">
                 <div class="showcaseWrapper">
                     <div class="showcaseCard">
@@ -85,7 +94,7 @@
                     </div>
 
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/CET-P3 (1).png" alt="">
+                        <img src="../Images/Projects/CET-P3.png" alt="">
                         <div class="info">
                             <h1>Common Entry Test</h1>
                             <p>A portal to hold all the chapters/clubs related recruitments</p>
@@ -97,108 +106,99 @@
 
                 <div class="showcaseWrapper">
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/whatsapp-groupadd-P7.png" alt="">
+                        <img src="../Images/Projects/Engagement Monitor-P4.png" alt="">
                         <div class="info">
-                            <h1>WhatsApp GroupAdd</h1>
-                            <p>WhatsApp GroupAdd is a Python code which helps it users to add people to a specific WhatsApp group without directly saving their numbers. </p>
+                            <h1>Engagement Monitor</h1>
+                            <p>A web application to help you analyse active or disinterested members of a WhatsApp group. </p>
                             <h3>WEB</h3>
-                            <a href="https://github.com/CodeChefVIT/whatsapp-groupadd" target="_blank" class="btn">View Project</a>
+                            <a href="https://github.com/CodeChefVIT/engagement-monitor" target="_blank" class="btn">View Project</a>
                         </div>
                     </div>
 
                     <div class="showcaseCard">
-                        <img class="projectsImage" src="../Images/Projects/RoadToDevSoc-P8.png" alt="">
+                        <img src="../Images/Projects/bookmark.png" alt="">
                         <div class="info">
-                            <h1>RoadToDevSoc'21</h1>
-                            <p>Official Website showcasing the roadmap for all the events before DevSoc'21</p>
-                            <h3>WEB</h3>
-                            <a href="https://github.com/CodeChefVIT/Road-To-DEVSOC-Landing" target="_blank" class="btn">View Project</a>
+                            <h1>Universal Bookmark App</h1>
+                            <p>A one stop location for links, photos and videos you are interested in. </p>
+                            <h3>APP</h3>
+                            <a href="https://github.com/CodeChefVIT/Universal-Bookmark-App" target="_blank" class="btn">View Project</a>
                         </div>
                     </div>
 
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/quizzieImage.png" alt="">
+                        <img src="../Images/Projects/sms_app-P6.png" alt="">
                         <div class="info">
-                            <h1>Quizzie</h1>
-                            <p>Open Sourced Quiz Portal which can be used for any event / competition with a custom leaderboard.</p>
-                            <h3>WEB</h3>
-                            <a href="https://github.com/CodeChefVIT/Quizzie" target="_blank" class="btn">View Project</a>
+                            <h1>SMS App</h1>
+                            <p>App to send bulk messages to multiple contacts at same time. </p>
+                            <h3>APP</h3>
+                            <a href="https://github.com/CodeChefVIT/sms_app" target="_blank" class="btn">View Project</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="projectTitleDiv" data-aos="fade-up">
-                <h1>2020</h1>
+                <h1 class="projectsTitle year">2020</h1>
             </div>
             <div class="projectShowcase">
                 <div class="showcaseWrapper">
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/devsoc21-P1.png" alt="">
+                        <img src="../Images/Events/devsoc20.jpg" alt="">
                         <div class="info">
-                            <h1>DevSoc'21</h1>
-                            <p>The official website for DEVSOC 2021 by CodeChef-VIT.</p>
-                            <h3>WEB</h3>
-                            <a href="https://github.com/CodeChefVIT/DevSoc21" target="_blank" class="btn">View Project</a>
+                            <h1>DevSoc'20</h1>
+                            <p>The second iteration of our flagship event and one of VIT's most
+                                prestigious hackathons promises a weekend of intense coding, unlimited pizzas,
+                                coffee and goodies; for developers who have the gusto to brainstorm, zeal to code
+                                and stamina to last 48 hours in an intensely competitive atmosphere.</p>
                         </div>
                     </div>
 
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/devsoc_admin-P2.png" alt="">
+                        <img src="../Images/Events/CookOff20.jpg" alt="">
                         <div class="info">
-                            <h1>HackScore Admin</h1>
-                            <p>This app was made to make the evaluation of participants in CodeChef-VIT's flagship event, DEVSOC 2020.</p>
-                            <h3>APP</h3>
-                            <a href="https://github.com/CodeChefVIT/devsoc_admin" target="_blank" class="btn">View Project</a>
+                            <h1>Cook Off 6.0</h1>
+                            <p>Cook Off is our flagship competitive coding event, where you can evaluate yourself with incremental difficulty of codes, and wide pallete of logical application. Coming back with the sixth iteration of Cook Off, CodeChef-VIT witnessed over 120+ participants from in and around VIT. With zealous participants, 8-hours of rigorous coding and exciting rewards, this event outdid the expectations of both participants and organizers. </p>
                         </div>
                     </div>
 
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/CET-P3 (1).png" alt="">
+                        <img src="../Images/Events/FlutterBootcamp.jpg" alt="">
                         <div class="info">
-                            <h1>Common Entry Test</h1>
-                            <p>A portal to hold all the chapters/clubs related recruitments</p>
-                            <h3>WEB</h3>
-                            <a href="https://github.com/CodeChefVIT/Common-Entry-Test" target="_blank" class="btn">View Project</a>
+                            <h1>Flutter Bootcamp</h1>
+                            <p>A dream come true for most developers! Flutter allows developers to build both IOS and Android apps from the same code. Flutter Bootcamp, was an intuitive workshop through which participants were able to witness the magic of flutter while learning how to put it to great use.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="showcaseWrapper">
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/whatsapp-groupadd-P7.png" alt="">
+                        <img src="../Images/Events/IntroToAI.jpg" alt="">
                         <div class="info">
-                            <h1>WhatsApp GroupAdd</h1>
-                            <p>WhatsApp GroupAdd is a Python code which helps it users to add people to a specific WhatsApp group without directly saving their numbers. </p>
-                            <h3>WEB</h3>
-                            <a href="https://github.com/CodeChefVIT/whatsapp-groupadd" target="_blank" class="btn">View Project</a>
+                            <h1>Intro To AI</h1>
+                            <p>Intro to AI was a one day interactive hands-on workshop, where industry experts from the field of Artificial Intelligence gave the participants an insight into the skills and knowledge necessary to start their journey and how incredibly this vast field will inevitably change all industries in times to come.</p>
                         </div>
                     </div>
 
                     <div class="showcaseCard">
-                        <img class="projectsImage" src="../Images/Projects/RoadToDevSoc-P8.png" alt="">
+                        <img src="../Images/Events/webapps20.jpeg" alt="">
                         <div class="info">
-                            <h1>RoadToDevSoc'21</h1>
-                            <p>Official Website showcasing the roadmap for all the events before DevSoc'21</p>
-                            <h3>WEB</h3>
-                            <a href="https://github.com/CodeChefVIT/Road-To-DEVSOC-Landing" target="_blank" class="btn">View Project</a>
+                            <h1>Building WebApps</h1>
+                            <p>Building functional webapps was a two day interactive workshop, each day giving the participants insight into front-end development, back-end web development, deployment and introduction to frameworks like bootstrap and Node. Being one of our biggest Gravitas events, it saw enthusiastic participation from freshers and seniors alike.</p>
                         </div>
                     </div>
 
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/quizzieImage.png" alt="">
+                        <img src="../Images/Events/TechTalks20.jpg" alt="">
                         <div class="info">
-                            <h1>Quizzie</h1>
-                            <p>Open Sourced Quiz Portal which can be used for any event / competition with a custom leaderboard.</p>
-                            <h3>WEB</h3>
-                            <a href="https://github.com/CodeChefVIT/Quizzie" target="_blank" class="btn">View Project</a>
+                            <h1>Tech Talks</h1>
+                            <p>CodeChef-VIT came up with a first of its kind virtual technical round table discussion, an event that brought in some of the best in the world of tech. Leading figures in the industry were interviewed, where they shared their stories, struggles and insights. Unlike any regular guest session, this was an interactive and intuitive session focussing on imparting practical skills from all the latest tech domains to its attendees.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="projectTitleDiv" data-aos="fade-up">
-                <h1>2019</h1>
+                <h1 class="projectsTitle year">2019</h1>
             </div>
             <div class="projectShowcase">
                 <div class="showcaseWrapper">
@@ -223,7 +223,7 @@
                     </div>
 
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/CET-P3 (1).png" alt="">
+                        <img src="../Images/Projects/CET-P3.png" alt="">
                         <div class="info">
                             <h1>Common Entry Test</h1>
                             <p>A portal to hold all the chapters/clubs related recruitments</p>
@@ -235,32 +235,32 @@
 
                 <div class="showcaseWrapper">
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/whatsapp-groupadd-P7.png" alt="">
+                        <img src="../Images/Projects/Engagement Monitor-P4.png" alt="">
                         <div class="info">
-                            <h1>WhatsApp GroupAdd</h1>
-                            <p>WhatsApp GroupAdd is a Python code which helps it users to add people to a specific WhatsApp group without directly saving their numbers. </p>
+                            <h1>Engagement Monitor</h1>
+                            <p>A web application to help you analyse active or disinterested members of a WhatsApp group. </p>
                             <h3>WEB</h3>
-                            <a href="https://github.com/CodeChefVIT/whatsapp-groupadd" target="_blank" class="btn">View Project</a>
+                            <a href="https://github.com/CodeChefVIT/engagement-monitor" target="_blank" class="btn">View Project</a>
                         </div>
                     </div>
 
                     <div class="showcaseCard">
-                        <img class="projectsImage" src="../Images/Projects/RoadToDevSoc-P8.png" alt="">
+                        <img src="../Images/Projects/bookmark.png" alt="">
                         <div class="info">
-                            <h1>RoadToDevSoc'21</h1>
-                            <p>Official Website showcasing the roadmap for all the events before DevSoc'21</p>
-                            <h3>WEB</h3>
-                            <a href="https://github.com/CodeChefVIT/Road-To-DEVSOC-Landing" target="_blank" class="btn">View Project</a>
+                            <h1>Universal Bookmark App</h1>
+                            <p>A one stop location for links, photos and videos you are interested in. </p>
+                            <h3>APP</h3>
+                            <a href="https://github.com/CodeChefVIT/Universal-Bookmark-App" target="_blank" class="btn">View Project</a>
                         </div>
                     </div>
 
                     <div class="showcaseCard">
-                        <img src="../Images/Projects/quizzieImage.png" alt="">
+                        <img src="../Images/Projects/sms_app-P6.png" alt="">
                         <div class="info">
-                            <h1>Quizzie</h1>
-                            <p>Open Sourced Quiz Portal which can be used for any event / competition with a custom leaderboard.</p>
-                            <h3>WEB</h3>
-                            <a href="https://github.com/CodeChefVIT/Quizzie" target="_blank" class="btn">View Project</a>
+                            <h1>SMS App</h1>
+                            <p>App to send bulk messages to multiple contacts at same time. </p>
+                            <h3>APP</h3>
+                            <a href="https://github.com/CodeChefVIT/sms_app" target="_blank" class="btn">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -287,38 +287,43 @@
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Team</a></li>
-                            <li><a href="#">Projects</a></li>
+                            <li class="footerLinkLast"><a href="#">Projects</a></li>
                         </ul>
                     </div>
-                    <div class="footerLinksDiv">
+                    <div class="footerLinksDiv SecondRow">
                         <ul>
                             <li><a href="#">Events</a></li>
                             <li><a href="#">Webinars</a></li>
-                            <li><a href="#sponsors">Sponsors</a></li>
+                            <li><a href="#">Sponsors</a></li>
+                            <li class="footerLinkLast"><a href="#">App</a></li>
                         </ul>
                     </div>
                 </div>
+
             </div>
             <div class="footerLineBreak"></div>
             <div class="footerBottom">
                 <div class="footerBottomCopyrightDiv">
-                    <img src="../Images/Socials/copyright.svg" alt="copyright svg">
-                    <span>Copyright 2020 | CodeChef-VIT | All rights reserved.</span>
+                    <!-- <img src="../Images/Socials/copyright.svg" alt="copyright svg"> -->
+
+                    <span>&copy; Copyright 2020 | CodeChef-VIT | All rights reserved.</span>
                 </div>
                 <div class="footerSocials">
-                    <a href=" https://www.facebook.com/codechefvit/ " target="_blank"><img class="footerSocialImage" src="../Images/Socials/Facebook - Negative.svg " alt=" "></a>
-                    <a href="https://twitter.com/codechefvit?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img class="footerSocialImage" src="../Images/Socials/Twitter - Negative.svg " alt=" "></a>
-                    <a href="https://www.linkedin.com/company/codechef-vit-chapter/mycompany/" target="_blank"><img class="footerSocialImage" src="../Images/Socials/LinkedIn - Negative.svg " alt=" "></a>
-                    <a href="https://www.youtube.com/c/CodeChefVIT" target="_blank"><img class="footerSocialImage" src="../Images/Socials/YouTube - Negative.svg " alt=" "></a>
-                    <a href="https://www.instagram.com/codechefvit/" target="_blank"><img class="footerSocialImage" src="../Images/Socials/Instagram - Negative.svg " alt=" "></a>
-                    <a href="https://medium.com/codechef-vit" target="_blank"><img class="footerSocialImage" src="../Images/Socials/Medium - Negative.svg " alt=" "></a>
-                    <a href="https://github.com/CodeChefVIT" target="_blank"><img class="footerSocialImage" src="../Images/Socials/github.png " alt=" "></a>
+                    <a href=" https://www.facebook.com/codechefvit/ "><img class="footerSocialImage" src="../Images/Socials/Facebook - Negative.svg " alt=" "></a>
+                    <a href="https://twitter.com/codechefvit?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="footerSocialImage" src="../Images/Socials/Twitter - Negative.svg " alt=" "></a>
+                    <a href="https://www.linkedin.com/company/codechef-vit-chapter/mycompany/"><img class="footerSocialImage" src="../Images/Socials/LinkedIn - Negative.svg " alt=" "></a>
+                    <a href="https://www.youtube.com/c/CodeChefVIT"><img class="footerSocialImage" src="../Images/Socials/YouTube - Negative.svg " alt=" "></a>
+                    <a href="https://www.instagram.com/codechefvit/"><img class="footerSocialImage" src="../Images/Socials/Instagram - Negative.svg " alt=" "></a>
+                    <a href="https://medium.com/codechef-vit"><img class="footerSocialImage" src="../Images/Socials/Medium - Negative.svg " alt=" "></a>
+                    <a href="https://github.com/CodeChefVIT"><img class="footerSocialImage" src="../Images/Socials/github.png " alt=" "></a>
                 </div>
             </div>
         </div>
     </section>
 
     <script src="./Event.js"></script>
+    <script src="../LandingPage/navbar.js"></script>
+    <script src="../LandingPage/Main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
