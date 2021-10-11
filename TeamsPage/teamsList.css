@@ -124,11 +124,11 @@
     transition: 0.5s ease-in-out;
     border: 0;
     outline: 0;
-    box-shadow: 0px 0px 8px rgba(21, 121, 214, 0.8);
+    box-shadow: 0px 0px 12px rgba(21, 121, 214, 0.8);
 }
 
 .showcaseCard:hover {
-    transform: translateY(20px);
+    transform: translateY(-10px);
     box-shadow: none;
 }
 
@@ -138,18 +138,23 @@
     top: 0;
     left: 0;
     display: block;
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
+    border-radius: 8px;
     background: linear-gradient(180deg, rgba(7, 95, 176, 0.8) 0%, #0C2943 100%);
     z-index: 2;
-    transition: 0.5s all;
+    transition: all 0.8s ease-in-out;
     opacity: 0;
 }
 
 .showcaseCard:hover::before {
+    width: 100%;
+    height: 100%;
     opacity: 1;
 }
+
+
+/* .showcaseCard:hover::before {
+    opacity: 1;
+} */
 
 .showcaseCard img {
     width: 100%;
@@ -193,52 +198,6 @@
     font-size: 15px;
     margin-top: 8px;
     margin-bottom: 20px;
-}
-
-.showcaseCard .info .btn {
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    background: white;
-    color: rgba(21, 121, 214, 1);
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 0.4s ease-in-out;
-}
-
-.showcaseCard .info .btn:hover {
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
-}
-
-
-/*View All Button*/
-
-.viewAllBtn {
-    margin-top: 1.5rem;
-    text-decoration: none;
-    /* padding: 16px 32px; */
-    width: 160px;
-    height: 48px;
-    background: #1579D6;
-    color: #fff;
-    border-radius: 8px;
-    font-size: 20px;
-    font-weight: 200;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    outline: none;
-    border: none;
-}
-
-.viewAllBtn:hover {
-    background-color: #0649ad;
-    font-size: 18px;
-}
-
-.viewAllBtn a {
-    text-decoration: none;
-    color: #fff;
 }
 
 @media only screen and (min-width:1350px) {
@@ -368,24 +327,6 @@
     }
 }
 
-@media only screen and (max-width:500px) {
-    .projectTabs {
-        padding: .1em;
-    }
-    .blackBox1 {
-        display: none;
-    }
-    .blackBox2 {
-        display: none;
-    }
-    .projectTabs ul li {
-        font-size: 16px;
-    }
-    .projectTabs {
-        background-color: #111;
-    }
-}
-
 @media only screen and (max-width:680px) {
     /* .showcaseWrapper:nth-child(3) {
         display: none;
@@ -410,70 +351,6 @@
     }
 }
 
-
-/* @media only screen and (max-width:550px) {
-    .showcaseCard:nth-child(3) {
-        display: none;
-    }
-    .showcaseCard {
-        width: 180px;
-        height: 215px;
-    }
-    .showcaseCard .info h1 {
-        font-size: 19px;
-    }
-    .showcaseCard .info h3 {
-        font-size: 13px;
-        margin-bottom: 6px;
-    }
-    .showcaseCard .info p {
-        font-size: 9px;
-        margin-top: 4px;
-    }
-    .showcaseCard .info .btn {
-        font-size: 11px;
-    }
-    .projectTabs {
-        padding: .15em;
-    }
-    .blackBox1 {
-        height: 54px;
-    }
-    .blackBox2 {
-        height: 54px;
-    }
-    .projectTabs ul li {
-        font-size: 18px;
-    }
-    .viewAllBtn {
-        width: 130px;
-        height: 40px;
-        font-size: 16px;
-    }
-} */
-
-
-/* @media only screen and (max-width:480px) {
-    .showcaseCard {
-        width: 160px;
-        height: 190px;
-    }
-    .showcaseCard .info h1 {
-        font-size: 18px;
-    }
-    .showcaseCard .info h3 {
-        font-size: 12px;
-        margin-bottom: 6px;
-    }
-    .showcaseCard .info p {
-        font-size: 8px;
-        margin-top: 4px;
-    }
-    .showcaseCard .info .btn {
-        font-size: 10px;
-    }
-} */
-
 @media only screen and (max-width:550px) {
     .showcaseWrapper {
         width: 90%;
@@ -483,7 +360,36 @@
     .showcaseCard {
         width: 240px;
         height: 285px;
-        margin-top: 32px
+        margin-top: 32px;
+        transform: translateY(0px);
+        box-shadow: none;
+    }
+    .showcaseCard:hover {
+        transform: translateY(-10px);
+        box-shadow: none;
+    }
+    .showcaseCard::before {
+        background: linear-gradient(180deg, rgba(7, 95, 176, 0) -19.3%, #0C2943 100%);
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+    }
+    .showcaseCard:hover::before {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+    .showcaseCard .info {
+        position: relative;
+        z-index: 3;
+        color: #fff;
+        opacity: 1;
+        transform: translateY(0px);
+        transition: 0.5s all;
+    }
+    .showcaseCard:hover .info {
+        opacity: 1;
+        transform: translateY(0px);
     }
     .showcaseCard .info h1 {
         font-size: 24px;
@@ -503,6 +409,24 @@
     }
     .projectTabs ul li {
         padding: 12px 28px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .projectTabs {
+        padding: .1em;
+    }
+    .blackBox1 {
+        display: none;
+    }
+    .blackBox2 {
+        display: none;
+    }
+    .projectTabs ul li {
+        font-size: 16px;
+    }
+    .projectTabs {
+        background-color: #111;
     }
 }
 
