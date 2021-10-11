@@ -46,9 +46,13 @@
         
         .footerLinksDiv li {
             display: inline-block;
-            padding-bottom: 32px;
+            padding-bottom: 2.5em;
             list-style-type: none;
-            margin-right: 56px;
+            margin-right: 4em;
+        }
+        
+        .SecondRow li {
+            margin-right: 2.5em;
         }
         
         .footerLinksDiv a {
@@ -231,10 +235,10 @@
         
         @media only screen and (max-width:560px) {
             .footerLinksDiv a {
-                font-size: 12px;
+                font-size: 10px;
             }
             .footerContentText {
-                font-size: 12px;
+                font-size: 10px;
             }
             .footerLinksDiv li {
                 margin-right: 110px;
@@ -269,7 +273,7 @@
             }
         }
         
-        @media only screen and (max-width:405px) {
+        @media only screen and (max-width:420px) {
             .footerLinksDiv li {
                 margin-right: 64px;
                 padding-bottom: 20px;
