@@ -371,17 +371,11 @@
     .cardTitle {
         font-size: 16px;
     }
-    .departmentsTitle {
-        font-size: 40px;
-    }
     .cardFR h2 {
         font-size: 16px;
     }
     .cardFRCompetitive h2 {
         font-size: 16px;
-    }
-    .departmentsTitle:after {
-        top: 64px;
     }
     .cardTitleCompetitve {
         font-size: 16px;

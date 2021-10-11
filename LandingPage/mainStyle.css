@@ -222,6 +222,9 @@
     }
     
     @media only screen and (max-width:980px) {
+        .heroDiv {
+            margin-top: 7em;
+        }
         p.Hero-title1 {
             font-size: 50px;
         }
@@ -319,32 +322,35 @@
             font-size: 14px;
         }
         p.Hero-title1 {
-            font-size: 32px;
+            font-size: 34px;
         }
         p.Hero-title2 {
-            font-size: 32px;
+            font-size: 34px;
         }
         .socialsFloat {
             width: 25%;
         }
     }
     
-    @media only screen and (max-width:480px) {
+    @media only screen and (max-width:500px) {
         p.Hero-title1 {
-            font-size: 30px;
+            font-size: 32px;
         }
         p.Hero-title2 {
-            font-size: 30px;
+            font-size: 32px;
         }
     }
     
-    @media only screen and (max-width:455px) {
-        p.Hero-title1 {
+    @media only screen and (max-width:480px) {
+        /* p.Hero-title1 {
             font-size: 30px;
         }
         p.Hero-title2 {
             font-size: 30px;
-        }
+        } */
+    }
+    
+    @media only screen and (max-width:465px) {
         .bigsocial {
             width: 16px;
         }
@@ -353,15 +359,12 @@
         }
     }
     
-    @media only screen and (max-width:405px) {
-        p.Sub-title {
-            font-size: 10px;
-        }
+    @media only screen and (max-width:440px) {
         p.Hero-title1 {
-            font-size: 28px
+            font-size: 34px
         }
         p.Hero-title2 {
-            font-size: 28px;
+            font-size: 34px;
         }
         .bigsocial {
             width: 14px;
@@ -371,24 +374,38 @@
         }
     }
     
-    @media only screen and (max-width:330px) {
+    @media only screen and (max-width:410px) {
         p.Sub-title {
-            font-size: 9px;
+            font-size: 10px;
         }
         .socialsFloat {
             width: 30%;
         }
+        .heroDiv {
+            margin-top: 5em;
+        }
     }
-    
-    @media only screen and (max-width:310px) {
+    /* @media only screen and (max-width:340px) {
         p.Sub-title {
             font-size: 10px;
         }
         p.Hero-title1 {
-            font-size: 22px
+            font-size: 30px
         }
         p.Hero-title2 {
-            font-size: 22px;
+            font-size: 30px;
+        }
+    } */
+    
+    @media only screen and (max-width:302px) {
+        p.Sub-title {
+            font-size: 10px;
+        }
+        p.Hero-title1 {
+            font-size: 28px
+        }
+        p.Hero-title2 {
+            font-size: 28px;
         }
     }
     /* Responiveness for particular devices */
