@@ -102,7 +102,7 @@
     }
     
     span {
-        margin-left: 0.3em;
+        margin-left: 0.2em;
         color: #1579D6;
     }
     /*Floating Socials*/
@@ -342,12 +342,9 @@
     }
     
     @media only screen and (max-width:480px) {
-        /* p.Hero-title1 {
-            font-size: 30px;
+        span {
+            margin-left: 0.15em;
         }
-        p.Hero-title2 {
-            font-size: 30px;
-        } */
     }
     
     @media only screen and (max-width:465px) {

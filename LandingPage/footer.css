@@ -29,9 +29,10 @@
         .footerContentText {
             color: white;
             font-size: 20px;
+            font-family: 'Inter', sans-serif;
             line-height: 180%;
             color: rgba(255, 255, 255, 0.6);
-            font-weight: 300;
+            font-weight: 400;
         }
         
         .footerLinksContainerDiv {
@@ -56,6 +57,7 @@
         }
         
         .footerLinksDiv a {
+            font-family: 'Inter', sans-serif;
             text-decoration: none;
             color: white;
             font-size: 20px;
