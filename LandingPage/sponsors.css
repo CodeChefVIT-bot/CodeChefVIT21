@@ -56,6 +56,17 @@
     animation: translation 50s linear infinite;
 }
 
+.brochure-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendBtn>i {
+    margin-left: 0.5em;
+    vertical-align: middle;
+}
+
 
 /* Responsive styles  */
 
