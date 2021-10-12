@@ -478,6 +478,9 @@
         .showcaseCard:nth-child(3) {
             display: block;
         }
+        .showcaseCard:nth-child(3) h1 {
+            margin-top: 2em;
+        }
         .showcaseWrapper:nth-child(2) {
             display: none;
         }
