@@ -102,3 +102,14 @@
                 margin-top: 30%;
             }
         }
+
+        @media only screen and (max-width:900px) and (min-height:1650px) {
+            #EventHome{
+                height: 40vh;
+            }  
+        }
+        @media only screen and (min-width:900px) and (min-height:1650px) {
+            #EventHome{
+                height: 40vh;
+            }  
+        }
