@@ -61,7 +61,7 @@
 }
 
 .navbarHamDiv {
-    /* border: 2px solid red; */
+    top: 0;
     position: fixed;
     right: 0;
     min-width: 150px;
@@ -83,13 +83,13 @@
 .navbarHamDiv::before {
     content: "";
     position: absolute;
-    /* border-radius: 12px; */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    /* background-color: #000; */
-    background-image: url('/Images/navMobile-background.svg');
+    border-radius: 16px 0px 0px 16px;
+    background: linear-gradient(126.6deg, #205689 28.69%, #0A3B67 100%);
+    backdrop-filter: blur(30px);
     z-index: -10;
     opacity: 0.95;
 }

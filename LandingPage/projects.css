@@ -478,6 +478,9 @@
         .showcaseCard:nth-child(3) {
             display: block;
         }
+        .showcaseCard:nth-child(3) h1 {
+            margin-top: 2em;
+        }
         .showcaseWrapper:nth-child(2) {
             display: none;
         }
@@ -502,9 +505,9 @@
             font-size: 14px;
             margin-top: 16px;
         }
-        .projectTabs ul li {
+        /* .projectTabs ul li {
             padding: 12px 28px;
-        }
+        } */
     }
     /* Responsive styles for title  */
     

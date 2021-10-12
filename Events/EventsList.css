@@ -486,9 +486,9 @@
     .showcaseCard:nth-child(3) {
         display: block;
     }
-    /* .showcaseWrapper:nth-child(2) {
-        display: none;
-    } */
+    .showcaseCard .info .consilio-text {
+        margin-top: 5em;
+    }
     .showcaseCard {
         width: 240px;
         height: 285px;
