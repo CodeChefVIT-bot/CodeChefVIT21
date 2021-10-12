@@ -102,7 +102,7 @@
     }
     
     span {
-        margin-left: 0.2em;
+        margin-left: 0.3em;
         color: #1579D6;
     }
     /*Floating Socials*/
@@ -222,9 +222,6 @@
     }
     
     @media only screen and (max-width:980px) {
-        .heroDiv {
-            margin-top: 7em;
-        }
         p.Hero-title1 {
             font-size: 50px;
         }
@@ -322,32 +319,32 @@
             font-size: 14px;
         }
         p.Hero-title1 {
-            font-size: 34px;
+            font-size: 32px;
         }
         p.Hero-title2 {
-            font-size: 34px;
+            font-size: 32px;
         }
         .socialsFloat {
             width: 25%;
         }
     }
     
-    @media only screen and (max-width:500px) {
+    @media only screen and (max-width:480px) {
         p.Hero-title1 {
-            font-size: 32px;
+            font-size: 30px;
         }
         p.Hero-title2 {
-            font-size: 32px;
+            font-size: 30px;
         }
     }
     
-    @media only screen and (max-width:480px) {
-        span {
-            margin-left: 0.15em;
+    @media only screen and (max-width:455px) {
+        p.Hero-title1 {
+            font-size: 30px;
         }
-    }
-    
-    @media only screen and (max-width:465px) {
+        p.Hero-title2 {
+            font-size: 30px;
+        }
         .bigsocial {
             width: 16px;
         }
@@ -356,12 +353,15 @@
         }
     }
     
-    @media only screen and (max-width:440px) {
+    @media only screen and (max-width:405px) {
+        p.Sub-title {
+            font-size: 10px;
+        }
         p.Hero-title1 {
-            font-size: 34px
+            font-size: 28px
         }
         p.Hero-title2 {
-            font-size: 34px;
+            font-size: 28px;
         }
         .bigsocial {
             width: 14px;
@@ -371,38 +371,24 @@
         }
     }
     
-    @media only screen and (max-width:410px) {
+    @media only screen and (max-width:330px) {
         p.Sub-title {
-            font-size: 10px;
+            font-size: 9px;
         }
         .socialsFloat {
             width: 30%;
         }
-        .heroDiv {
-            margin-top: 5em;
-        }
     }
-    /* @media only screen and (max-width:340px) {
-        p.Sub-title {
-            font-size: 10px;
-        }
-        p.Hero-title1 {
-            font-size: 30px
-        }
-        p.Hero-title2 {
-            font-size: 30px;
-        }
-    } */
     
-    @media only screen and (max-width:302px) {
+    @media only screen and (max-width:310px) {
         p.Sub-title {
             font-size: 10px;
         }
         p.Hero-title1 {
-            font-size: 28px
+            font-size: 22px
         }
         p.Hero-title2 {
-            font-size: 28px;
+            font-size: 22px;
         }
     }
     /* Responiveness for particular devices */
