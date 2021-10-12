@@ -8,6 +8,9 @@
             .heroDiv {
                 margin-top: 5em;
             }
+            #EventHome {
+                height: 100vh;
+            }
         }
         
         @media only screen and (max-width:375px) and (min-height:800px) {
@@ -35,6 +38,9 @@
             .heroDiv {
                 margin-top: 10em;
             }
+            #EventHome {
+                height: 60vh;
+            }
         }
         
         @media only screen and (max-width:1030px) and (min-height:1360px) {
@@ -49,6 +55,9 @@
             }
             .heroDiv {
                 margin-top: 11em;
+            }
+            #EventHome {
+                height: 50vh;
             }
         }
         

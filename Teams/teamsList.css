@@ -204,6 +204,15 @@
     .showcaseWrapper {
         width: 70%;
     }
+    #TeamList {
+        margin-top: 6%;
+    }
+}
+
+@media only screen and (max-width:1350px) {
+    #TeamList {
+        margin-top: 6%;
+    }
 }
 
 @media only screen and (min-width:1300px) {
@@ -331,6 +340,12 @@
     /* .showcaseWrapper:nth-child(3) {
         display: none;
     } */
+    #EventHome {
+        height: 90vh;
+    }
+    #TeamList {
+        margin-top: 15%;
+    }
     .showcaseCard {
         width: 140px;
         height: 168px;
