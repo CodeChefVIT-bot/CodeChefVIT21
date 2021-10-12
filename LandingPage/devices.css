@@ -1,12 +1,15 @@
         @media only screen and (max-width:320px) and (max-height:570px) {
             .heroArrowDiv {
-                margin-top: 5em;
+                margin-top: 3em !important;
             }
             #aboutUs {
                 margin-top: 50%;
             }
             .heroDiv {
                 margin-top: 5em;
+            }
+            #EventHome {
+                height: 100vh;
             }
         }
         
@@ -35,11 +38,14 @@
             .heroDiv {
                 margin-top: 10em;
             }
+            #EventHome {
+                height: 60vh;
+            }
         }
         
         @media only screen and (max-width:1030px) and (min-height:1360px) {
             .heroArrowDiv {
-                margin-top: 9em;
+                margin-top: 6em !important;
             }
             #home::before {
                 height: 55%;
@@ -49,6 +55,9 @@
             }
             .heroDiv {
                 margin-top: 11em;
+            }
+            #EventHome {
+                height: 50vh;
             }
         }
         
@@ -69,7 +78,7 @@
         
         @media only screen and (max-width:1024px) and (max-height:600px) {
             .heroDiv {
-                margin-top: 6em;
+                margin-top: 2em !important;
             }
             .heroArrowDiv {
                 margin-top: 7em;
