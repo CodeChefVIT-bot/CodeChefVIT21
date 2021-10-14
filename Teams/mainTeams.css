@@ -139,6 +139,11 @@ body {
     width: 120px;
     height: 48px;
     margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.1s ease-in-out;
     background: #1579D6;
     color: #fff;
     border-radius: 8px;
@@ -148,20 +153,9 @@ body {
     border: none;
 }
 
-.viewAllBtn a {
-    font-size: 18px;
-    font-weight: 200;
-    text-decoration: none;
-    color: #fff;
-    transition: 0.1s ease-in-out;
-}
-
 .viewAllBtn:hover {
     background: #0649ad;
-}
-
-.viewAllBtn>a:hover {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .year {

@@ -216,36 +216,6 @@
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }
 
-
-/*View All Button*/
-
-.viewAllBtn {
-    margin-top: 1.5rem;
-    text-decoration: none;
-    /* padding: 16px 32px; */
-    width: 160px;
-    height: 48px;
-    background: #1579D6;
-    color: #fff;
-    border-radius: 8px;
-    font-size: 20px;
-    font-weight: 200;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    outline: none;
-    border: none;
-}
-
-.viewAllBtn:hover {
-    background-color: #0649ad;
-    font-size: 18px;
-}
-
-.viewAllBtn a {
-    text-decoration: none;
-    color: #fff;
-}
-
 @media only screen and (min-width:1350px) {
     .showcaseWrapper {
         width: 70%;
@@ -487,7 +457,7 @@
         display: block;
     }
     .showcaseCard .info .consilio-text {
-        margin-top: 5em;
+        margin-top: 4em;
     }
     .showcaseCard {
         width: 240px;
