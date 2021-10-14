@@ -139,6 +139,10 @@ body {
     text-decoration: none;
     width: 160px;
     height: 48px;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff;
     background: #1579D6;
     color: #fff;
     border-radius: 8px;
@@ -150,13 +154,7 @@ body {
 
 .ViewEventBtn:hover {
     background-color: #0649ad;
-}
-
-.ViewEventBtn a {
-    font-size: 18px;
-    font-weight: 200;
-    text-decoration: none;
-    color: #fff;
+    font-size: 16px;
 }
 
 
