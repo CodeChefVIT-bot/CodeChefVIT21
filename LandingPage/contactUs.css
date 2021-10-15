@@ -125,7 +125,7 @@
     margin-bottom: 0px;
 }
 
-.sendBtn {
+.contactBox .sendBtn {
     margin: 1rem auto;
     text-decoration: none;
     width: 160px;
@@ -141,9 +141,15 @@
     outline: none;
 }
 
-.sendBtn:hover {
+.contactBox .sendBtn:hover {
     background-color: #0649ad;
     font-size: 18px;
+}
+
+.contactBox .sendBtn:focus {
+    border: none;
+    border-width: 0px;
+    background-color: #0649ad;
 }
 
 
@@ -189,7 +195,7 @@
 }
 
 @media only screen and (max-width:800px) {
-    .sendBtn {
+    .contactBox .sendBtn {
         width: 140px;
         height: 42px;
         font-size: 18px;
@@ -224,7 +230,7 @@
 }
 
 @media only screen and (max-width:550px) {
-    .sendBtn {
+    .contactBox .sendBtn {
         width: 130px;
         height: 40px;
         font-size: 16px;
