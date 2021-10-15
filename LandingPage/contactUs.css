@@ -139,6 +139,8 @@
     transition: 0.3s ease-in;
     border: none;
     outline: none;
+    vertical-align: middle;
+    padding: 0px;
 }
 
 .contactBox .sendBtn:hover {
