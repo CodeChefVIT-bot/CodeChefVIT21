@@ -41,6 +41,16 @@
     #EventHome {
         height: 60vh;
     }
+    .ProjectText {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        width: 48%;
+        margin-left: 8%;
+    }
 }
 
 @media only screen and (max-width:1030px) and (min-height:1360px) {

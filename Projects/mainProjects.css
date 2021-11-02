@@ -43,9 +43,10 @@ body {
     right: 30px;
     border-radius: 50%;
     border: 2px solid rgba(19, 129, 230, 0.8);
+    ;
     width: 50px;
     height: 50px;
-    font-size: 24px;
+    font-size: 25px;
     color: #fff;
     background-color: rgba(19, 129, 230, 0.8);
     opacity: 90%;
@@ -92,7 +93,7 @@ body {
     flex-direction: row-reverse;
     /* margin-left: 3%; */
     margin-top: 15%;
-    z-index: 3;
+    z-index: 30;
 }
 
 .EventHero {
@@ -109,7 +110,7 @@ body {
     align-items: center;
 }
 
-.EventText {
+.ProjectText {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -120,9 +121,9 @@ body {
     margin-left: 25%;
 }
 
-.EventAbout {
-    font-size: 26px;
-    line-height: 190%;
+.ProjectAbout {
+    font-size: 24px;
+    line-height: 180%;
     color: #fff;
 }
 
@@ -134,17 +135,15 @@ body {
     align-items: flex-start;
 }
 
-.viewAllBtn {
-    /* margin-top: 1.5rem; */
-    text-decoration: none;
-    width: 120px;
-    height: 48px;
+.ViewEventBtn {
     margin-top: 2rem;
+    text-decoration: none;
+    width: 160px;
+    height: 48px;
     font-size: 18px;
     font-weight: 200;
     text-decoration: none;
     color: #fff;
-    transition: 0.1s ease-in-out;
     background: #1579D6;
     color: #fff;
     border-radius: 8px;
@@ -154,17 +153,28 @@ body {
     border: none;
 }
 
-.viewAllBtn:hover {
-    background: #0649ad;
+.ViewEventBtn:hover {
+    background-color: #0649ad;
     font-size: 16px;
 }
+
+
+/* Event List Section */
 
 .year {
     margin-top: 5%;
 }
 
+
+/* Footer Section */
+
+.EventFooter {
+    background: linear-gradient(135.71deg, rgba(0, 0, 0, 0.21) 24.69%, #06559D 264.38%);
+    width: 100%;
+}
+
 @media only screen and (max-width:1430px) {
-    .EventText {
+    .ProjectText {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -174,16 +184,13 @@ body {
         margin-right: 1%;
         margin-left: 15%;
     }
-    .EventAbout {
+    .ProjectAbout {
         font-size: 20px;
         line-height: 180%;
     }
 }
 
 @media only screen and (max-width:760px) {
-    #EventHome {
-        height: 100%;
-    }
     .EventHero {
         display: flex;
         flex-wrap: wrap;
@@ -191,7 +198,7 @@ body {
         justify-content: center;
         align-items: center;
     }
-    .EventText {
+    .ProjectText {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -203,7 +210,7 @@ body {
         margin-right: 5%;
         margin-left: 5%;
     }
-    .EventAbout {
+    .ProjectAbout {
         font-size: 20px;
         line-height: 180%;
     }
@@ -235,11 +242,17 @@ body {
 }
 
 @media only screen and (max-width:420px) {
-    .EventAbout {
+    .ProjectAbout {
         font-size: 16px;
         line-height: 180%;
     }
     #EventHome {
         height: 80vh;
+    }
+    #Eventlist {
+        width: 100%;
+        height: 100%;
+        background-color: #111;
+        margin-top: 10%;
     }
 }
