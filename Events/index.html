@@ -1,332 +1,644 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="subject" content="CodeChef-VIT" />
+        <meta
+            name="description"
+            content="CodeChef-VIT is a non-commercial organisation with a goal to provide a platform for programmers and developers everywhere to meet, compete & have fun."
+        />
+        <meta
+            name="keywords"
+            content="CodeChefVIT, CodeChef-VIT, vit, VIT, VIT-Vellore, Vit, CodeChef, Vellore, Student, Chapter, Club, club, CLUB, CHAPTER, chapter, Education"
+        />
+        <meta name="copyright" content="CodeChef-VIT" />
+        <meta name="language" content="en" />
+        <meta name="url" content="https://www.codechefvit.com/" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="distribution" content="Global" />
+        <meta name="target" content="all" />
+        <meta name="rating" content="General" />
+        <meta name="og:country-name" content="India" />
+        <meta name="og:region" content="India" />
+        <meta property="og:url" content="https://www.codechefvit.com/" />
+        <meta name="og:site_name" content="CodeChef-VIT" />
+        <meta property="og:type" content="Website" />
+        <meta property="og:title" content="CodeChef-VIT || Events" />
+        <meta
+            property="og:description"
+            content="CodeChef-VIT is a non-commercial organisation with a goal to provide a platform for programmers and developers everywhere to meet, compete & have fun."
+        />
+        <meta property="og:site_name" content="CodeChef-VIT" />
+        <meta name="twitter:card" content="website" />
+        <meta name="twitter:site" content="CodeChef-VIT" />
+        <meta name="twitter:title" content="CodeChef-VIT || Events" />
+        <meta
+            name="twitter:description"
+            content="CodeChef-VIT is a non-commercial organisation with a goal to provide a platform for programmers and developers everywhere to meet, compete & have fun."
+        />
+        <meta name="twitter:creator" content="@codechefvit" />
+        <meta itemprop="name" content="CodeChef-VIT" />
+        <meta
+            itemprop="description"
+            content="CodeChef-VIT is a non-commercial organisation with a goal to provide a platform for programmers and developers everywhere to meet, compete & have fun."
+        />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeChef-VIT || Events</title>
-    <!-- <link rel="stylesheet" href="./eventsNav.css"> -->
-    <link rel="stylesheet" href="../LandingPage/Navbar.css">
-    <link rel="stylesheet" href="../LandingPage/mainStyle.css">
-    <link rel="stylesheet" href="./mainEvents.css">
-    <link rel="stylesheet" href="../LandingPage/devices.css">
-    <!-- <link rel="stylesheet" href="../LandingPage/projects.css"> -->
-    <link rel="stylesheet" href="./EventsList.css">
-    <link rel="stylesheet" href="../LandingPage/aboutUs.css">
-    <link rel="stylesheet" href="../LandingPage/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-    </style>
+        <link rel="icon" type="image/png" href="../logo.png" />
+        <link rel="apple-touch-icon" type="image/png" href="../logo.png" />
+        <title>CodeChef-VIT || Events</title>
+        <!-- <link rel="stylesheet" href="./eventsNav.css"> -->
+        <link rel="stylesheet" href="../LandingPage/Navbar.css" />
+        <link rel="stylesheet" href="../LandingPage/mainStyle.css" />
+        <link rel="stylesheet" href="./mainEvents.css" />
+        <link rel="stylesheet" href="../LandingPage/devices.css" />
+        <!-- <link rel="stylesheet" href="../LandingPage/projects.css"> -->
+        <link rel="stylesheet" href="./EventsList.css" />
+        <link rel="stylesheet" href="../LandingPage/aboutUs.css" />
+        <link rel="stylesheet" href="../LandingPage/footer.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+        </style>
+    </head>
 
-</head>
-
-<body>
-    <section id="EventHome">
-        <nav class="navbar">
-            <div id="logo">
-                <img src="../Images/codechef_logo_1.svg" alt="Logo">
-            </div>
-            <div class="navbarUl">
-                <ul>
-                    <li class="items"><a href="/index.html">Home</a></li>
-                    <li class="items"><a href="#">Events</a></li>
-                    <li class="items"><a href="https://www.youtube.com/c/CodeChefVIT/videos" target="_blank">Webinars</a></li>
-                    <li class="items"><a href="/Projects/">Projects</a></li>
-                    <li class="items"><a href="/Teams/">Team</a></li>
-                    <li class="items"><a href="/index.html#contactUs">Contact Us</a></li>
-                    <li class="barsNavLi">
-                        <div class="barsNav"></div>
-                        <div class="barsNav"></div>
-                        <div class="barsNav"></div>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-        <div class="EventHeroDiv">
-            <div class="navbarHamDiv">
-                <ul class="navHomeList">
-                    <li class="nav-cross">
-                        <img src="../Images/entypo_cross.svg" alt="">
-                    </li>
-
-                    <li onclick="location.href='/index.html'" class="home-nav-items"><a href="/index.html">Home</a></li>
-                    <li onclick="location.href='#'" class="home-nav-items"><a href="#">Events</a></li>
-                    <li onclick="windows.open('https://www.youtube.com/c/CodeChefVIT/videos')" class="home-nav-items"><a href="https://www.youtube.com/c/CodeChefVIT/videos" target="_blank">Webinars</a></li>
-                    <li class="home-nav-items"><a href="/Projects/">Projects</a></li>
-                    <li onclick="location.href='/Teams'" class="home-nav-items"><a href="/Teams/">Team</a></li>
-                    <li onclick="location.href='/index.html#contactUs'" class="home-nav-items"><a href="/index.html#contactUs">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="hero EventHero">
-                <div class="EventHero1">
-                    <p class="Hero-title1">Our<span id="app">Events</span></p>
-                    <div class="ViewEventsDiv">
-                        <a href="#Eventlist"> <button class="ViewEventBtn">View Events <i class="arrow down"></i></button></a>
-                    </div>
+    <body>
+        <section id="EventHome">
+            <nav class="navbar">
+                <div id="logo">
+                    <img src="../Images/codechef_logo_1.svg" alt="Logo" />
                 </div>
-                <div class="EventText">
-                    <p class="EventAbout">Events and hackathons are the two cornerstones that make CodeChef-VIT one of the campus' most deemed and reputed chapters. Our teamwork, dedication and determination is what propels and inspires our events to take greater strides and
-                        achieve greater heights.</p>
+                <div class="navbarUl">
+                    <ul>
+                        <li class="items"><a href="/index.html">Home</a></li>
+                        <li class="items"><a href="#">Events</a></li>
+                        <li class="items">
+                            <a
+                                href="https://www.youtube.com/c/CodeChefVIT/videos"
+                                target="_blank"
+                                >Webinars</a
+                            >
+                        </li>
+                        <li class="items">
+                            <a
+                                href="https://projects.codechefvit.com"
+                                target="_blank"
+                                >Projects</a
+                            >
+                        </li>
+                        <li class="items"><a href="/Teams/">Team</a></li>
+                        <li class="items">
+                            <a href="/index.html#contactUs">Contact Us</a>
+                        </li>
+                        <li class="barsNavLi">
+                            <div class="barsNav"></div>
+                            <div class="barsNav"></div>
+                            <div class="barsNav"></div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+            </nav>
+            <div class="EventHeroDiv">
+                <div class="navbarHamDiv">
+                    <ul class="navHomeList">
+                        <li class="nav-cross">
+                            <img src="../Images/entypo_cross.svg" alt="" />
+                        </li>
 
-        </div>
-    </section>
-
-    <section id="Eventlist">
-
-        <div class="projectContainer">
-            <div class="projectTitleDiv" data-aos="fade-up">
-                <h1 class="projectsTitle year">2021</h1>
-            </div>
-            <div class="projectShowcase">
-                <div class="showcaseWrapper">
-                    <div class="showcaseCard">
-                        <img src="../Images/Projects/devsoc21-P1.png" alt="">
-                        <div class="info">
-                            <h1>DevSoc'21</h1>
-                            <p>DEVSOC is CodeChef-VIT’s annual flagship event hoping to empower young minds by bringing enthusiastic technocrats and thinkers under one roof.</p>
-                        </div>
-                    </div>
-
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/HactoberFest.svg" alt="">
-                        <div class="info">
-                            <h1>HactoberFest 2021</h1>
-                            <p>An Opensource Workshop conducted to spread the knowledge about HacktoberFest and how to make your first pull request. </p>
-                        </div>
-                    </div>
-
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/AnimationFlutter.jpg" alt="">
-                        <div class="info">
-                            <h1 class="consilio-text">Animation in Flutter</h1>
-                            <p>A Webinar Taken by Mr.Hasnen Tai talking and enlightening the students about the principle of animation in Flutter.</p>
-                        </div>
-                    </div>
+                        <li
+                            onclick="location.href='/index.html'"
+                            class="home-nav-items"
+                        >
+                            <a href="/index.html">Home</a>
+                        </li>
+                        <li onclick="location.href='#'" class="home-nav-items">
+                            <a href="#">Events</a>
+                        </li>
+                        <li
+                            onclick="windows.open('https://www.youtube.com/c/CodeChefVIT/videos')"
+                            class="home-nav-items"
+                        >
+                            <a
+                                href="https://www.youtube.com/c/CodeChefVIT/videos"
+                                target="_blank"
+                                >Webinars</a
+                            >
+                        </li>
+                        <li
+                            onclick="windows.open('https://projects.codechefvit.com')"
+                            class="home-nav-items"
+                        >
+                            <a
+                                href="https://projects.codechefvit.com"
+                                target="_blank"
+                                >Projects</a
+                            >
+                        </li>
+                        <li
+                            onclick="location.href='/Teams'"
+                            class="home-nav-items"
+                        >
+                            <a href="/Teams/">Team</a>
+                        </li>
+                        <li
+                            onclick="location.href='/index.html#contactUs'"
+                            class="home-nav-items"
+                        >
+                            <a href="/index.html#contactUs">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
-
-                <div class="showcaseWrapper">
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/codeInvicta.svg" alt="">
-                        <div class="info">
-                            <h1>Code Invicta</h1>
-                            <p>A web application to help you analyse active or disinterested members of a WhatsApp group. </p>
+                <div class="hero EventHero">
+                    <div class="EventHero1">
+                        <p class="Hero-title1">
+                            Our<span id="app">Events</span>
+                        </p>
+                        <div class="ViewEventsDiv">
+                            <a href="#Eventlist">
+                                <button class="ViewEventBtn">
+                                    View Events
+                                    <i class="arrow down"></i></button
+                            ></a>
                         </div>
                     </div>
-
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/techChronicle.svg" alt="">
-                        <div class="info">
-                            <h1>Tech Chronicle</h1>
-                            <p>A one stop location for links, photos and videos you are interested in. </p>
-                        </div>
-                    </div>
-
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/consolio.svg" alt="">
-                        <div class="info">
-                            <h1 class="consilio-text">Consilio</h1>
-                            <p>This event was a part of road to devsoc specially organised for designers to show there skills in a limited time event.Many designers participated from both VIT and other colleges.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="projectTitleDiv" data-aos="fade-up">
-                <h1 class="projectsTitle year">2020</h1>
-            </div>
-            <div class="projectShowcase">
-                <div class="showcaseWrapper">
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/devsoc20.jpg" alt="">
-                        <div class="info">
-                            <h1>DevSoc'20</h1>
-                            <p>The second iteration of our flagship event and one of VIT's most prestigious hackathons promises a weekend of intense coding, unlimited pizzas,coffee and goodies; for developers who have the gusto to brainstorm, zeal to code
-                                and stamina to last 48 hours in an intensely competitive atmosphere.</p>
-                        </div>
-                    </div>
-
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/CookOff20.jpg" alt="">
-                        <div class="info">
-                            <h1>Cook Off 6.0</h1>
-                            <p>Cook Off is our flagship competitive coding event, where you can evaluate yourself with incremental difficulty of codes, and wide pallete of logical application.With zealous participants, 8-hours of rigorous coding and exciting
-                                rewards, this event outdid the expectations of both participants and organizers. </p>
-                        </div>
-                    </div>
-
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/FlutterBootcamp.jpg" alt="">
-                        <div class="info">
-                            <h1>Flutter Bootcamp</h1>
-                            <p>A dream come true for most developers! Flutter allows developers to build both IOS and Android apps from the same code. Flutter Bootcamp, was an intuitive workshop through which participants were able to witness the magic of
-                                flutter while learning how to put it to great use.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="showcaseWrapper">
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/IntroToAI.jpg" alt="">
-                        <div class="info">
-                            <h1>Intro To AI</h1>
-                            <p>Intro to AI was a one day interactive hands-on workshop, where industry experts from the field of Artificial Intelligence gave the participants an insight into the skills and knowledge necessary to start their journey and how
-                                incredibly this vast field will inevitably change all industries in times to come.</p>
-                        </div>
-                    </div>
-
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/WebApps20.jpg" alt="">
-                        <div class="info">
-                            <h1>Building WebApps</h1>
-                            <p>Building functional webapps was a two day interactive workshop, each day giving the participants insight into front-end development, back-end web development, deployment and introduction to frameworks like bootstrap and Node.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/TechTalks20.jpg" alt="">
-                        <div class="info">
-                            <h1>Tech Talks</h1>
-                            <p>CodeChef-VIT came up with a first of its kind virtual technical round table discussion, an event that brought in some of the best in the world of tech. Leading figures in the industry were interviewed, where they shared their
-                                stories, struggles and insights.</p>
-                        </div>
+                    <div class="EventText">
+                        <p class="EventAbout">
+                            Events and hackathons are the two cornerstones that
+                            make CodeChef-VIT one of the campus' most deemed and
+                            reputed chapters. Our teamwork, dedication and
+                            determination is what propels and inspires our
+                            events to take greater strides and achieve greater
+                            heights.
+                        </p>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="projectTitleDiv" data-aos="fade-up">
-                <h1 class="projectsTitle year">2019</h1>
+        <section id="Eventlist">
+            <div class="projectContainer">
+                <div class="projectTitleDiv" data-aos="fade-up">
+                    <h1 class="projectsTitle year">2021</h1>
+                </div>
+                <div class="projectShowcase">
+                    <div class="showcaseWrapper">
+                        <div class="showcaseCard">
+                            <img
+                                src="../Images/Projects/devsoc21-P1.png"
+                                alt=""
+                            />
+                            <div class="info">
+                                <h1>DevSoc'21</h1>
+                                <p>
+                                    The official website for DEVSOC 2021 by
+                                    CodeChef-VIT.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img
+                                src="../Images/Events/HactoberFest.svg"
+                                alt=""
+                            />
+                            <div class="info">
+                                <h1>HactoberFest 2021</h1>
+                                <p>
+                                    An Opensource Workshop conducted to spread
+                                    the knowledge about HacktoberFest and how to
+                                    make your first pull request.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img
+                                src="../Images/Events/AnimationFlutter.jpg"
+                                alt=""
+                            />
+                            <div class="info">
+                                <h1 class="consilio-text">
+                                    Animation in Flutter
+                                </h1>
+                                <p>
+                                    A Webinar Taken by Mr.Hasnen Tai talking and
+                                    enlightening the students about the
+                                    principle of animation in Flutter.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcaseWrapper">
+                        <div class="showcaseCard">
+                            <img
+                                src="../Images/Events/codeInvicta.svg"
+                                alt=""
+                            />
+                            <div class="info">
+                                <h1>Code Invicta</h1>
+                                <p>
+                                    A web application to help you analyse active
+                                    or disinterested members of a WhatsApp
+                                    group.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img
+                                src="../Images/Events/techChronicle.svg"
+                                alt=""
+                            />
+                            <div class="info">
+                                <h1>TechChronicles</h1>
+                                <p>
+                                    A one stop location for links, photos and
+                                    videos you are interested in.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img src="../Images/Events/consolio.svg" alt="" />
+                            <div class="info">
+                                <h1 class="consilio-text">Consilio</h1>
+                                <p>
+                                    This event was a part of road to devsoc
+                                    specially organised for designers to show
+                                    there skills in a limited time event.Many
+                                    designers participated from both VIT and
+                                    other colleges.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projectTitleDiv" data-aos="fade-up">
+                    <h1 class="projectsTitle year">2020</h1>
+                </div>
+                <div class="projectShowcase">
+                    <div class="showcaseWrapper">
+                        <div class="showcaseCard">
+                            <img src="../Images/Events/devsoc20.jpg" alt="" />
+                            <div class="info">
+                                <h1>DevSoc'20</h1>
+                                <p>
+                                    The second iteration of our flagship event
+                                    and one of VIT's most prestigious hackathons
+                                    promises a weekend of intense coding,
+                                    unlimited pizzas,coffee and goodies; for
+                                    developers who have the gusto to brainstorm,
+                                    zeal to code and stamina to last 48 hours in
+                                    an intensely competitive atmosphere.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img src="../Images/Events/CookOff20.jpg" alt="" />
+                            <div class="info">
+                                <h1>Cook Off 6.0</h1>
+                                <p>
+                                    Cook Off is our flagship competitive coding
+                                    event, where you can evaluate yourself with
+                                    incremental difficulty of codes, and wide
+                                    pallete of logical application.With zealous
+                                    participants, 8-hours of rigorous coding and
+                                    exciting rewards, this event outdid the
+                                    expectations of both participants and
+                                    organizers.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img
+                                src="../Images/Events/FlutterBootcamp.jpg"
+                                alt=""
+                            />
+                            <div class="info">
+                                <h1>Flutter Bootcamp</h1>
+                                <p>
+                                    A dream come true for most developers!
+                                    Flutter allows developers to build both IOS
+                                    and Android apps from the same code. Flutter
+                                    Bootcamp, was an intuitive workshop through
+                                    which participants were able to witness the
+                                    magic of flutter while learning how to put
+                                    it to great use.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcaseWrapper">
+                        <div class="showcaseCard">
+                            <img src="../Images/Events/IntroToAI.jpg" alt="" />
+                            <div class="info">
+                                <h1>Intro To AI</h1>
+                                <p>
+                                    Intro to AI was a one day interactive
+                                    hands-on workshop, where industry experts
+                                    from the field of Artificial Intelligence
+                                    gave the participants an insight into the
+                                    skills and knowledge necessary to start
+                                    their journey and how incredibly this vast
+                                    field will inevitably change all industries
+                                    in times to come.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img src="../Images/Events/WebApps20.jpg" alt="" />
+                            <div class="info">
+                                <h1>Building WebApps</h1>
+                                <p>
+                                    Building functional webapps was a two day
+                                    interactive workshop, each day giving the
+                                    participants insight into front-end
+                                    development, back-end web development,
+                                    deployment and introduction to frameworks
+                                    like bootstrap and Node.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img
+                                src="../Images/Events/TechTalks20.jpg"
+                                alt=""
+                            />
+                            <div class="info">
+                                <h1>Tech Talks</h1>
+                                <p>
+                                    CodeChef-VIT came up with a first of its
+                                    kind virtual technical round table
+                                    discussion, an event that brought in some of
+                                    the best in the world of tech. Leading
+                                    figures in the industry were interviewed,
+                                    where they shared their stories, struggles
+                                    and insights.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projectTitleDiv" data-aos="fade-up">
+                    <h1 class="projectsTitle year">2019</h1>
+                </div>
+                <div class="projectShowcase">
+                    <div class="showcaseWrapper">
+                        <div class="showcaseCard">
+                            <img src="../Images/Events/devsoc19.jpg" alt="" />
+                            <div class="info">
+                                <h1>DevSoc'19</h1>
+                                <p>
+                                    DEVSOC 2019 was the initial iteration of our
+                                    flagship event and was arguably one of the
+                                    biggest hackathons of our institute that saw
+                                    over a thousand developers come together to
+                                    showcase their technical prowess and set out
+                                    to device solutions for various problems of
+                                    our time.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img src="../Images/Events/cook19.jpeg" alt="" />
+                            <div class="info">
+                                <h1>Cook Off 5.0</h1>
+                                <p>
+                                    Being the fifth iteration of our flagship
+                                    event, we outdid ourselves by conducting an
+                                    8 hour long event attracting over 250
+                                    participants from all years across 4
+                                    different labs.With zealous participants,
+                                    enthusiastic coordinators and exciting
+                                    rewards, this event not only lived up to the
+                                    expectations, but also outdid them.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img src="../Images/Events/webapps20.jpeg" alt="" />
+                            <div class="info">
+                                <h1>Building WebApps</h1>
+                                <p>
+                                    Building functional webapps was a two day
+                                    interactive workshop, each day giving the
+                                    participants insight into front and back-end
+                                    web development and introduction to
+                                    frameworks like bootstrap and flask. Being
+                                    one of our biggest Gravitas events, it saw
+                                    enthusiastic participation from freshers and
+                                    seniors alike.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcaseWrapper">
+                        <div class="showcaseCard">
+                            <img src="../Images/Events/insight19.jpeg" alt="" />
+                            <div class="info">
+                                <h1>Insight</h1>
+                                <p>
+                                    250+ VITians attended our inaugural event of
+                                    the year, Insight, on 7th August.It centered
+                                    around technical know-hows and served as an
+                                    ice-breaker between freshers and seniors.
+                                    The facilitator was our Technical Head, with
+                                    board members chipping in as well.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img src="../Images/Events/game19.jpeg" alt="" />
+                            <div class="info">
+                                <h1>Game Dev</h1>
+                                <p>
+                                    This two day workshop gave its attendees
+                                    hands on experience on how to design and
+                                    develop their very own elementary games
+                                    using unity and blender.The participants
+                                    were first taught 3-D modelling and then the
+                                    use of these 3-D models to build real life
+                                    games and applications
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="showcaseCard">
+                            <img src="../Images/Events/server19.jpeg" alt="" />
+                            <div class="info">
+                                <h1>Server Dev</h1>
+                                <p>
+                                    Server Dev on the cloud was an 8 hour long
+                                    event that aimed to edifythe audience on the
+                                    ins and outs of cloud computing platforms.
+                                    It was an enlightening workshop wherein
+                                    students were taught all the fundamentals
+                                    needed to get started with cloud based
+                                    server development.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="projectShowcase">
-                <div class="showcaseWrapper">
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/devsoc19.jpg" alt="">
-                        <div class="info">
-                            <h1>DevSoc'19</h1>
-                            <p>DEVSOC 2019 was the initial iteration of our flagship event and was arguably one of the biggest hackathons of our institute that saw over a thousand developers come together to showcase their technical prowess and set out to
-                                device solutions for various problems of our time.</p>
-                        </div>
+        </section>
+
+        <!-- Scroll to top Button -->
+        <button class="scroll-to-top"><i class="fa fa-chevron-up"></i></button>
+
+        <section class="footer">
+            <div class="footerDiv">
+                <img
+                    src="../Images/codechef_logo_1.svg"
+                    alt="Codechef logo footer"
+                />
+                <div class="footerContentDiv">
+                    <div class="footerContentTextDiv">
+                        <p class="footerContentText">
+                            CodeChef-VIT is a non-commercial organization with a
+                            goal to provide a platform for programmers and
+                            developers everywhere to meet, compete & have fun.
+                            At CodeChef-VIT, we believe in the words of Matt
+                            Mullenweg - “Technology is best when it brings
+                            people together”.
+                        </p>
                     </div>
 
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/cook19.jpeg" alt="">
-                        <div class="info">
-                            <h1>Cook Off 5.0</h1>
-                            <p>Being the fifth iteration of our flagship event, we outdid ourselves by conducting an 8 hour long event attracting over 250 participants from all years across 4 different labs.With zealous participants, enthusiastic coordinators
-                                and exciting rewards, this event not only lived up to the expectations, but also outdid them.</p>
+                    <div class="footerLinksContainerDiv">
+                        <div class="footerLinksDiv">
+                            <ul>
+                                <li><a href="/index.html">Home</a></li>
+                                <li>
+                                    <a
+                                        href="https://medium.com/codechef-vit"
+                                        target="_blank"
+                                        >Blog</a
+                                    >
+                                </li>
+                                <li><a href="/Teams/">Team</a></li>
+                                <li class="footerLinkLast">
+                                    <a
+                                        href="https://projects.codechefvit.com"
+                                        target="_blank"
+                                        >Projects</a
+                                    >
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/webapps20.jpeg" alt="">
-                        <div class="info">
-                            <h1>Building WebApps</h1>
-                            <p>Building functional webapps was a two day interactive workshop, each day giving the participants insight into front and back-end web development and introduction to frameworks like bootstrap and flask. Being one of our biggest
-                                Gravitas events, it saw enthusiastic participation from freshers and seniors alike.</p>
+                        <div class="footerLinksDiv SecondRow">
+                            <ul>
+                                <li><a href="#">Events</a></li>
+                                <li>
+                                    <a
+                                        href="https://www.youtube.com/c/CodeChefVIT/videos"
+                                        target="_blank"
+                                        >Webinars</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="/index.html#sponsors">Sponsors</a>
+                                </li>
+                                <!-- <li class="footerLinkLast"><a href="#">App</a></li> -->
+                            </ul>
                         </div>
                     </div>
                 </div>
+                <div class="footerLineBreak"></div>
+                <div class="footerBottom">
+                    <div class="footerBottomCopyrightDiv">
+                        <!-- <img src="../Images/Socials/copyright.svg" alt="copyright svg"> -->
 
-                <div class="showcaseWrapper">
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/insight19.jpeg" alt="">
-                        <div class="info">
-                            <h1>Insight</h1>
-                            <p>250+ VITians attended our inaugural event of the year, Insight, on 7th August.It centered around technical know-hows and served as an ice-breaker between freshers and seniors. The facilitator was our Technical Head, with board
-                                members chipping in as well. </p>
-                        </div>
+                        <span
+                            >&copy; Copyright 2021 | CodeChef-VIT | All rights
+                            reserved.</span
+                        >
                     </div>
-
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/game19.jpeg" alt="">
-                        <div class="info">
-                            <h1>Game Dev</h1>
-                            <p>This two day workshop gave its attendees hands on experience on how to design and develop their very own elementary games using unity and blender.The participants were first taught 3-D modelling and then the use of these 3-D
-                                models to build real life games and applications</p>
-                        </div>
-                    </div>
-
-                    <div class="showcaseCard">
-                        <img src="../Images/Events/server19.jpeg" alt="">
-                        <div class="info">
-                            <h1>Server Dev</h1>
-                            <p>Server Dev on the cloud was an 8 hour long event that aimed to edifythe audience on the ins and outs of cloud computing platforms. It was an enlightening workshop wherein students were taught all the fundamentals needed to
-                                get started with cloud based server development.</p>
-                        </div>
+                    <div class="footerSocials">
+                        <a
+                            href=" https://www.facebook.com/codechefvit/ "
+                            target="_black"
+                            ><img
+                                class="footerSocialImage"
+                                src="../Images/Socials/Facebook - Negative.svg "
+                                alt=" "
+                        /></a>
+                        <a
+                            href="https://twitter.com/codechefvit?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                            target="_black"
+                            ><img
+                                class="footerSocialImage"
+                                src="../Images/Socials/Twitter - Negative.svg "
+                                alt=" "
+                        /></a>
+                        <a
+                            href="https://www.linkedin.com/company/codechef-vit-chapter/mycompany/"
+                            target="_black"
+                            ><img
+                                class="footerSocialImage"
+                                src="../Images/Socials/LinkedIn - Negative.svg "
+                                alt=" "
+                        /></a>
+                        <a
+                            href="https://www.youtube.com/c/CodeChefVIT"
+                            target="_black"
+                            ><img
+                                class="footerSocialImage"
+                                src="../Images/Socials/YouTube - Negative.svg "
+                                alt=" "
+                        /></a>
+                        <a
+                            href="https://www.instagram.com/codechefvit/"
+                            target="_black"
+                            ><img
+                                class="footerSocialImage"
+                                src="../Images/Socials/Instagram - Negative.svg "
+                                alt=" "
+                        /></a>
+                        <a
+                            href="https://medium.com/codechef-vit"
+                            target="_black"
+                            ><img
+                                class="footerSocialImage"
+                                src="../Images/Socials/Medium - Negative.svg "
+                                alt=" "
+                        /></a>
+                        <a href="https://github.com/CodeChefVIT" target="_black"
+                            ><img
+                                class="footerSocialImage"
+                                src="../Images/Socials/github.png "
+                                alt=" "
+                        /></a>
                     </div>
                 </div>
             </div>
+        </section>
 
-        </div>
-    </section>
-
-
-    <!-- Scroll to top Button -->
-    <button class="scroll-to-top"><i class="fa fa-chevron-up"></i></button>
-
-    <section class="footer">
-        <div class="footerDiv">
-            <img src="../Images/codechef_logo_1.svg" alt="Codechef logo footer">
-            <div class="footerContentDiv">
-                <div class="footerContentTextDiv">
-                    <p class="footerContentText">CodeChef-VIT is a non-commercial organization with a goal to provide a platform for programmers and developers everywhere to meet, compete & have fun. At CodeChef-VIT, we believe in the words of Matt Mullenweg - “Technology is best
-                        when it brings people together”. </p>
-                </div>
-
-                <div class="footerLinksContainerDiv">
-                    <div class="footerLinksDiv">
-                        <ul>
-                            <li><a href="/index.html">Home</a></li>
-                            <li><a href="https://medium.com/codechef-vit" target="_blank">Blog</a></li>
-                            <li><a href="/Teams/">Team</a></li>
-                            <li class="footerLinkLast"><a href="/Projects/">Projects</a></li>
-                        </ul>
-                    </div>
-                    <div class="footerLinksDiv SecondRow">
-                        <ul>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="https://www.youtube.com/c/CodeChefVIT/videos" target="_blank">Webinars</a></li>
-                            <li><a href="/index.html#sponsors">Sponsors</a></li>
-                            <!-- <li class="footerLinkLast"><a href="#">App</a></li> -->
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-            <div class="footerLineBreak"></div>
-            <div class="footerBottom">
-                <div class="footerBottomCopyrightDiv">
-                    <!-- <img src="../Images/Socials/copyright.svg" alt="copyright svg"> -->
-
-                    <span>&copy; Copyright 2021 | CodeChef-VIT | All rights reserved.</span>
-                </div>
-                <div class="footerSocials">
-                    <a href=" https://www.facebook.com/codechefvit/ " target="_black"><img class="footerSocialImage" src="../Images/Socials/Facebook - Negative.svg " alt=" "></a>
-                    <a href="https://twitter.com/codechefvit?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_black"><img class="footerSocialImage" src="../Images/Socials/Twitter - Negative.svg " alt=" "></a>
-                    <a href="https://www.linkedin.com/company/codechef-vit-chapter/mycompany/" target="_black"><img class="footerSocialImage" src="../Images/Socials/LinkedIn - Negative.svg " alt=" "></a>
-                    <a href="https://www.youtube.com/c/CodeChefVIT" target="_black"><img class="footerSocialImage" src="../Images/Socials/YouTube - Negative.svg " alt=" "></a>
-                    <a href="https://www.instagram.com/codechefvit/" target="_black"><img class="footerSocialImage" src="../Images/Socials/Instagram - Negative.svg " alt=" "></a>
-                    <a href="https://medium.com/codechef-vit" target="_black"><img class="footerSocialImage" src="../Images/Socials/Medium - Negative.svg " alt=" "></a>
-                    <a href="https://github.com/CodeChefVIT" target="_black"><img class="footerSocialImage" src="../Images/Socials/github.png " alt=" "></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <script src="./Event.js"></script>
-    <script src="../LandingPage/navbar.js"></script>
-    <script src="../LandingPage/Main.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-</body>
-
+        <script src="./Event.js"></script>
+        <script src="../LandingPage/navbar.js"></script>
+        <script src="../LandingPage/Main.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
 </html>
